@@ -19,7 +19,7 @@ body {
 	text-align: center;
 }
 
-/* For reduce the height of the nav */
+/* To reduce the height of the nav */
 .logo-btn img {
 	height: 180px;
 	width: auto;
@@ -184,6 +184,48 @@ p {
 	margin-right: auto;
 }
 
+.page-footer {
+	width: 100vw;
+/*	height: 19vw;
+*/	display: flex;
+	background-color: #f0f0f0;
+	border-top: 1px solid #c1946a;
+	margin-top:  7.65rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page-footer--post h2 {
+	font-size: 1rem;
+	font-weight: 100;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.page-footer--post h3 {
+	font-size: 0.85rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+.page-footer--post h4 {
+	font-size: 0.85rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+.page-footer--post p {
+	font-size: 0.75rem;
+	font-weight: 200;
+	margin-top: 0.25rem;
+}
+
+
 @media only screen and (min-width: 595px) {
 	.home-hero h1 {
 		font-size: 2.4em;
@@ -317,6 +359,10 @@ p {
 	.post-albums__scholar--photo {
 		width: 100%;
 	}
+
+	.page-footer--post h2 {
+		font-size: 1.75rem;
+	}
 }
 
 @media only screen and (min-width: 1010px) {
@@ -337,46 +383,11 @@ p {
 	}	
 }
 
-.page-footer {
-	width: 100vw;
-	height: 19vw;
-	display: flex;
-	background-color: #f0f0f0;
-	border-top: 1px solid #c1946a;
-	margin-top:  7.65rem;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 
-}
 
-.page-footer--post h2 {
-	font-size: 1.75rem;
-	font-weight: 100;
-	margin-top: 0;
-	margin-bottom: 0;
-}
 
-.page-footer--post h3 {
-	font-size: 0.85rem;
-	font-weight: 100;
-	text-transform: uppercase;
-	margin-top: 3rem;
-	margin-bottom: 0;
-}
 
-.page-footer--post h4 {
-	font-size: 0.85rem;
-	font-weight: 100;
-	text-transform: uppercase;
-	margin-top: 0;
-	margin-bottom: 2rem;
-}
-.page-footer--post p {
-	font-size: 0.75rem;
-	font-weight: 200;
-	margin-top: 0.25rem;
-}
+
 
 
 
