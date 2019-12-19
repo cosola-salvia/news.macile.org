@@ -24,21 +24,19 @@ p {
 	line-height: 1.55;
 }
 
-@media only screen and (min-width: 800px) {
-	figcaption {
-		font-size: 0.813rem;
-		text-align: center;
-		margin-bottom: 0.67em;
-	}
-}
-
 .primary-nav {
 	/* to centralize the div. we have to verify what's happening. */
 	margin: auto;
 	text-align: center;
 }
 
-.primary-nav h1 {
+/* To reduce the height of the nav */
+.logo-img {
+	height: 180px;
+	width: auto;
+}
+
+.logo-text {
 	color: #091342;
 	font-family: 'Baskerville Old Face'; 
 	font-size: 4rem;
@@ -46,24 +44,14 @@ p {
 	margin: 0;
 }
 
-.primary-nav ul {
+.logo-description {
 	margin-top: 0;
 }
 
-.primary-nav li {
+.logo-description--text {
 	display: inline-block;
 	padding: 0 0.313em;
 	font-size: 1rem;
-}
-
-.primary-nav li:first-child {
-	padding-left: 0;
-}
-
-/* To reduce the height of the nav */
-.logo-btn img {
-	height: 180px;
-	width: auto;
 }
 
 @media only screen and (min-width: 800px) {
@@ -73,15 +61,15 @@ p {
 		grid-template-columns: auto auto;
 	}
 
-	.primary-nav .logo-btn {
+	.logo-btn {
 		grid-row: span 2;
 	}
 
-	.primary-nav h1 {
+	.logo-text {
 		font-size: 8rem;
 	}
 
-	.primary-nav li {
+	.logo-description--text {
 		display: inline-block;
 		padding: 0 1.19em;
 		font-size: 1.3rem;
@@ -110,7 +98,7 @@ p {
 	background-attachment: fixed;
 }
 
-.home-hero h1 {
+.home-hero--title {
 	/* Text styles*/
 	font-size: 2.3rem;
 
@@ -119,13 +107,13 @@ p {
 	margin-bottom: 0.5em;
 }
 
-.home-hero h2 {
+.home-hero--subtitle {
 	/* Text styles*/
 	font-size: 0.8rem;
 }
 
 /*Styling the button. we need to give the button a display type of block (<a> elements are inline by default) so that it will behave like other elements. We also need to give it a width - otherwise, it will take up the full width of the screen */
-.home-hero .btn {
+.home-hero-btn {
 	/*positioning and sizing */
 	display: block;
 	width: 120px;
@@ -145,15 +133,15 @@ p {
 }
 
 @media only screen and (min-width: 595px) {
-	.home-hero h1 {
+	.home-hero--title {
 		font-size: 2.4rem;
 	}
 
-	.home-hero h2 {
+	.home-hero--subtitle {
 		font-size: 0.89rem;
 	}
 
-	.home-hero .btn {
+	.home-hero-btn {
 		margin-top: 1.25em;
 		width: 150px;
 		padding: 0.70em;
@@ -163,15 +151,15 @@ p {
 }
 
 @media only screen and (min-width: 800px) {
-	.home-hero h1 {
+	.home-hero--title {
 		font-size: 3.75rem;
 	}
 
-	.home-hero h2 {
+	.home-hero--subtitle {
 		font-size: 1.3rem;
 	}
 
-	.home-hero .btn {
+	.home-hero-btn {
 		margin-top: 2.188em;
 		width: 180px;
 		padding: 0.85em;
@@ -181,15 +169,15 @@ p {
 }
 
 @media only screen and (min-width: 1010px) {
-	.home-hero h1 {
+	.home-hero--title {
 		font-size: 4rem;
 	}
 
-	.home-hero h2 {
+	.home-hero--subtitle {
 		font-size: 1.45rem;
 	}
 
-	.home-hero .btn {
+	.home-hero-btn {
 		margin-top: 2.5em;
 		width: 200px;
 		padding: 1em;
@@ -198,7 +186,7 @@ p {
 	}	
 }
 
-.post > blockquote {
+.post-quote {
 	font-size: 1.5rem;
 	font-style: italic;
 	text-align: center;
@@ -216,12 +204,12 @@ p {
 		grid-column: 1 /-2;
 	}
 
-	.post > blockquote {
+	.post-quote {
 		grid-column: 1/-1;
 		font-size: 2.5rem;
 	}
 
-	.post > figure {
+	.picture-group {
 		margin: 0;
 		grid-column: 1/ -1;
 	}
@@ -243,41 +231,37 @@ p {
 	}
 }
 
-.post__our-journey h1 {
+@media only screen and (min-width: 800px) {
+	.picture-group--names {
+		font-size: 0.813rem;
+		text-align: center;
+		margin-bottom: 0.67em;
+	}
+}
+
+.post__our-journey_title {
 	font-family: Cambria, Cochin, serif;
 	font-size: 2.6rem;
 	font-style: italic;
 	font-weight: 100;
 }
 
-.post__our-journey--our-story h1 {
-	margin-bottom: 1em;
+.post__our-journey--our-story {
+	margin-top: 1em;
 }
 
-.post__our-journey h2 {
+.post__our-journey_student {
 	font-size: 1rem;
 }
 
-.post__our-journey > blockquote {
-	font-size: 1.5rem;
-	font-style: italic;
-	text-align: center;
-	margin: 0;
-}
-
 @media only screen and (min-width: 800px) {
-	.post__our-journey h1 {
+	.post__our-journey_title {
 		font-size: 4.25rem;
 		margin: 0.25em;
 	}
 
-	.post__our-journey h2 {
+	.post__our-journey_student {
 		font-size: 2rem;
-	}
-
-	.post__our-journey blockquote {
-		font-size: 2.5rem;
-		grid-column: 1/-1;
 	}
 }
 
@@ -323,7 +307,7 @@ p {
 		border-left: 2px solid #ffc600;
 	}
 
-	.post-side--right p {
+	.post-side_text {
 		line-height: 1.50;
 	}
 }
@@ -355,14 +339,14 @@ p {
 	text-align: center;
 }
 
-.page-footer--post h2 {
+.page-footer--name {
 	font-size: 1rem;
 	font-weight: 100;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.page-footer--post h3 {
+.page-footer--lab {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -370,7 +354,7 @@ p {
 	margin-bottom: 0;
 }
 
-.page-footer--post h4 {
+.page-footer--academy {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -378,14 +362,14 @@ p {
 	margin-bottom: 2em;
 }
 
-.page-footer--post p {
+.page-footer--text {
 	font-size: 0.75rem;
 	font-weight: 200;
 	margin-top: 0.25em;
 }
 
 @media only screen and (min-width: 800px) {
-	.page-footer--post h2 {
+	.page-footer--name {
 		font-size: 1.75rem;
 	}
 }
