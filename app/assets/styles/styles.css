@@ -1,68 +1,16 @@
 
+* {
+  box-sizing: border-box;
+}
+
 /* The body has a default margin, which we do not want interfering with our image header, which is why we have set it to 0. The reason that we have set the font-family to sans-serif is so that you’re not stuck with Times New Roman */
+
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	color: #444;
 }
 
-
-* {
-  box-sizing: border-box;
-}
-
-/* Hero positioning and sizing. If you don’t already know, vw and vh stand for the percentage of the viewport width and height. In this case, we are setting our hero to be 100% of the browser width and height. This create the space for the hero section (the whole screen)  */
-.home-hero {
-	width: 100vw;
-	height: 100vh;
-
-	/* Uisng flexbox to achieve perfect centering of text on hero image */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-  /* Centralizing the text in the element it is*/
-  text-align: center;
-  color: white;
-
-  /*Background styles */
-  background-image: url("../images/graduation_20191026MA-original.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home-hero h1 {
-	/* Text styles*/
-	font-size: 5em;
-
-	/* Reducing space between title and subtitle */
-	margin-top: 0;
-	margin-bottom: 0.5em;
-}
-
-/*Styling the button. we need to give the button a display type of block (<a> elements are inline by default) so that it will behave like other elements. We also need to give it a width - otherwise, it will take up the full width of the screen */
-.home-hero .btn {
-	/*positioning and sizing */
-	display: block;
-	width: 250px;
-
-	/*Padding and margins. margin-left and margin-right center the btn. */
-	padding: 1em;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-
-	/* Border styles*/
-	border: 3px solid white;
-	border-radius: 20px;
-
-	/*Text styles */
-	color: white;
-	font-size: 1.5em;
-
-}
 img {
 	max-width: 100%;
 	height: auto;
@@ -76,157 +24,362 @@ p {
 	line-height: 1.55;
 }
 
-/*Positioning and sizing the main content, setting it to be inside 75% of the browser width. */
-.post-wrapper {
-  overflow: hidden;
-  padding-left: 18px;
-  padding-right: 18px;
-  max-width: 75vw;
-  margin: 80px auto;
-  font-size: 1.15rem;
+.primary-nav {
+	/* to centralize the div. we have to verify what's happening. */
+	margin: auto;
+	text-align: center;
 }
-.post__our-journey h1 {
-	font-family: Cambria, Cochin, serif;
-	font-size: 4.25rem;
-	font-style: italic;
-	font-weight: 100;
-	margin: 0.25rem;
-	/*margin-bottom: 0.67rem;*/
-}
- .post__our-journey--our-story h1  {
-	margin-bottom: 1rem;}
 
-.post__our-journey h2 !important {
-	font-size: 2rem;
-	font-weight: 300;
+/* To reduce the height of the nav */
+.logo-img {
+	height: 180px;
+	width: auto;
+}
+
+.logo-text {
+	color: #091342;
+	font-family: 'Baskerville Old Face'; 
+	font-size: 4rem;
+	font-weight: 500;
+	margin: 0;
+}
+
+.logo-description {
 	margin-top: 0;
-	margin-bottom: 0.2rem;
 }
 
-.post {
-	display: grid;
-	grid-gap: 10px 50px;
-	grid-template-columns: 2fr 12fr 6fr;
+.logo-description--text {
+	display: inline-block;
+	padding: 0 0.313em;
+	font-size: 1rem;
 }
 
-.post >* {
-	grid-column: 1 /-2;
+@media only screen and (min-width: 800px) {
+	.primary-nav {
+		width: 800px;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.logo-btn {
+		grid-row: span 2;
+	}
+
+	.logo-text {
+		font-size: 8rem;
+	}
+
+	.logo-description--text {
+		display: inline-block;
+		padding: 0 1.19em;
+		font-size: 1.3rem;
+	}
 }
 
-.post__our-journey > blockquote {
-	grid-column: 1/-1;
-	font-size: 2.5rem;
+/* Hero positioning and sizing. If you don’t already know, vw and vh stand for the percentage of the viewport width and height. In this case, we are setting our hero to be 100% of the browser width and height. This create the space for the hero section (the whole screen)  */
+.home-hero {
+	width: 100vw;
+	height: 100vh;
+
+	/* Uisng flexbox to achieve perfect centering of text on hero image */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Centralizing the text in the element it is*/
+	text-align: center;
+	color: white;
+
+	/*Background styles */
+	background-image: url("../images/graduation_20191026MA-original.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.home-hero--title {
+	/* Text styles*/
+	font-size: 2.3rem;
+
+	/* Reducing space between title and subtitle */
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.home-hero--subtitle {
+	/* Text styles*/
+	font-size: 0.8rem;
+}
+
+/*Styling the button. we need to give the button a display type of block (<a> elements are inline by default) so that it will behave like other elements. We also need to give it a width - otherwise, it will take up the full width of the screen */
+.home-hero-btn {
+	/*positioning and sizing */
+	display: block;
+	width: 120px;
+
+	/*Padding and margins. margin-left and margin-right center the btn. */
+	padding: 0.4em;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Border styles*/
+	border: 3px solid white;
+	border-radius: 4px;
+
+	/*Text styles */
+	color: white;
+	font-size: 0.85rem;
+}
+
+@media only screen and (min-width: 595px) {
+	.home-hero--title {
+		font-size: 2.4rem;
+	}
+
+	.home-hero--subtitle {
+		font-size: 0.89rem;
+	}
+
+	.home-hero-btn {
+		margin-top: 1.25em;
+		width: 150px;
+		padding: 0.70em;
+		border-radius: 5px;
+		font-size: 0.93rem;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.home-hero--title {
+		font-size: 3.75rem;
+	}
+
+	.home-hero--subtitle {
+		font-size: 1.3rem;
+	}
+
+	.home-hero-btn {
+		margin-top: 2.188em;
+		width: 180px;
+		padding: 0.85em;
+		border-radius: 8px;
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (min-width: 1010px) {
+	.home-hero--title {
+		font-size: 4rem;
+	}
+
+	.home-hero--subtitle {
+		font-size: 1.45rem;
+	}
+
+	.home-hero-btn {
+		margin-top: 2.5em;
+		width: 200px;
+		padding: 1em;
+		border-radius: 10px;
+		font-size: 1.14rem;
+	}	
+}
+
+.post-quote {
+	font-size: 1.5rem;
 	font-style: italic;
 	text-align: center;
 	margin: 0;
 }
- .post-side {
+
+@media only screen and (min-width: 800px) {
+	.post {
+		display: grid;
+		grid-gap: 10px 50px;
+		grid-template-columns: 2fr 12fr 6fr;
+	}
+
+	.post > * {
+		grid-column: 1 /-2;
+	}
+
+	.post-quote {
+		grid-column: 1/-1;
+		font-size: 2.5rem;
+	}
+
+	.picture-group {
+		margin: 0;
+		grid-column: 1/ -1;
+	}
+}
+
+/*Positioning and sizing the main content, setting it to be inside 75% of the browser width. */
+.post-wrapper {
+	overflow: hidden;
+	padding-left: 1.125em;
+	padding-right: 1.125em;
+	font-size: 1rem;
+	max-width: 75vw;
+	margin: 5em auto;
+}
+
+@media only screen and (min-width: 800px) {
+	.post-wrapper {
+		font-size: 1.15rem;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.picture-group--names {
+		font-size: 0.813rem;
+		text-align: center;
+		margin-bottom: 0.67em;
+	}
+}
+
+.post__our-journey_title {
+	font-family: Cambria, Cochin, serif;
+	font-size: 2.6rem;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.post__our-journey--our-story {
+	margin-top: 1em;
+}
+
+.post__our-journey_student {
+	font-size: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+	.post__our-journey_title {
+		font-size: 4.25rem;
+		margin: 0.25em;
+	}
+
+	.post__our-journey_student {
+		font-size: 2rem;
+	}
+}
+
+.post-albums__scholar {
+	box-shadow: 0 0 5px rgba(254, 178, 54, 0.3);
+	color: #3b3a30;
+	font-weight: 150;
+}
+
+@media only screen and (min-width: 800px) {
+	.post-albums {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		grid-gap: 1.25rem;
+	}
+
+	.post-albums__scholar {
+		padding: 1.875em 0.625em;
+		display: grid;
+		grid-template-columns: 200px 1fr;
+		grid-gap: 20px;
+		align-items: top;
+	}
+
+	.post-albums__scholar--photo {
+		width: 100%;
+	}
+}
+
+.post-side {
 	background: #FAFAFA;
-	padding: 10px;
-	grid-row: span 2;
+	padding: 0.625em;
 	align-self: center;
 }
 
-.post-side--right {
-	grid-column: span 1/ -1;
-	border-left: 2px solid #ffc600;
-}
+@media only screen and (min-width: 800px) {
+	.post-side {
+		grid-row: span 2;
+	}
 
-.post-side--right p {
-	line-height: 1.50;
-}
+	.post-side--right {
+		grid-column: span 1/ -1;
+		border-left: 2px solid #ffc600;
+	}
 
-.post>figure {
-	margin: 0;
-	grid-column: 1/ -1;
-}
-
-figcaption {
-	font-size: 13px;
-	text-align: center;
-	margin-bottom: 0.67rem;
-}
-.post> blockquote {
-	grid-column: 1/-1;
-	font-size: 2.5rem;
-	font-style: italic;
-	text-align: center;
-	margin: 0;
+	.post-side_text {
+		line-height: 1.50;
+	}
 }
 
 /*Styling the album with CSS-grid. Defining a different wrapper for the album. */
 .albums-wrapper {
-  background-color: #eaece5;
-  overflow: hidden;
-  padding: 1.25rem;
-  max-width: 85vw;
-  font-size: 1.15rem;
-  margin-left: auto;
-  margin-right: auto;
+	background-color: #eaece5;
+	overflow: hidden;
+	padding: 1.25em;
+	max-width: 85vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.post-albums {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	grid-gap: 1.25rem;
-}
-
-.post-albums__scholar {
-	/*background: rgba(255, 255, 255, 0.2);*/
-   box-shadow: 0 0 5px rgba(254, 178, 54, 0.3);
-   padding: 30px 10px;
-   display: grid;
-   grid-template-columns: 200px 1fr;
-   grid-gap: 20px;
-   align-items: top;
-   color: #3b3a30;
-   font-weight: 150;
-}
-
-.post-albums__scholar--photo {
-	width: 100%;
+@media only screen and (min-width: 800px) {
+	.albums-wrapper {
+		font-size: 1.15rem;
+	}
 }
 
 .page-footer {
 	width: 100vw;
-	height: 19vw;
 	display: flex;
 	background-color: #f0f0f0;
 	border-top: 1px solid #c1946a;
-	margin-top:  7.65rem;
+	margin-top:  7.65em;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-
 }
 
-.page-footer--post h2 {
-	font-size: 1.75rem;
+.page-footer--name {
+	font-size: 1rem;
 	font-weight: 100;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.page-footer--post h3 {
+.page-footer--lab {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
-	margin-top: 3rem;
+	margin-top: 3em;
 	margin-bottom: 0;
 }
 
-.page-footer--post h4 {
+.page-footer--academy {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 2rem;
+	margin-bottom: 2em;
 }
-.page-footer--post p {
+
+.page-footer--text {
 	font-size: 0.75rem;
 	font-weight: 200;
-	margin-top: 0.25rem;
+	margin-top: 0.25em;
 }
+
+@media only screen and (min-width: 800px) {
+	.page-footer--name {
+		font-size: 1.75rem;
+	}
+}
+
+
+
+
+
+
+
 
 
 
