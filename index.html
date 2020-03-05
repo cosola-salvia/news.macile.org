@@ -1,20 +1,39 @@
 
 <!DOCTYPE html>
-<html>
-<head>
+<html prefix="og: http://ogp.me/ns#">
+<head itemscope itemtype="http://schema.org/CreativeWork">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  	<link rel="canonical" href="https://newsletter.macile.org">
-	<title>We Are the Heroes</title>
+	<title>We Are the Heroes - MACILE Newsletter</title>
+	<meta name="description" content="“We are the heroes” is the first digital newsletter of MACILE, a non-profit organization based on learning about Math, Science, Engineering and Language." />
+  <link rel="canonical" href="https://newsletter.macile.org">
+	<link itemprop="image" href="https://newsletter.macile.org/app/assets/images/graduation_20191026MA-original.jpg">
+	<!-- Facebook schema -->
+	<meta property="og:title" itemprop="name" content="We are the heroes">
+	<meta property="og:image"
+        content="https://newsletter.macile.org/app/assets/images/graduation_20191026MA-original.jpg">
+  <meta property="og:url"
+				content="https://newsletter.macile.org">
+	<meta property="og:type" content="website">
+	<meta property="og:description" itemprop="description"
+		    content="“We are the heroes” is the first digital newsletter of MACILE, a non-profit organization based on learning about Math, Science, Engineering and Language.">
+	<!-- Twitter schema -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@macielNewsletter">
+	<meta name="twitter:domain" content="macile.org">	
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="app/assets/styles/styles.css">
-
 </head>
 <body>
-	<nav class="primary-nav">
-		<a class="logo-btn" href="/"><img src="app/assets/images/logo-macile.jpg"></a>
-		<h1 class="logo-text">MACILE</h1>
-		<ul class="logo-description">
+	<nav class="primary-nav" itemscope itemtype="http://schema.org/Organization">
+    <a class="logo-btn" href="/" itemprop="url">
+      <picture>
+        <source srcset="app/assets/images/logo-macile.webp" type="image/webp">
+        <img src="app/assets/images/logo-macile.jpg" itemprop="logo">
+      </picture>
+    </a>
+		<h1 class="logo-text" itemprop="brand">MACILE</h1>
+		<ul class="logo-description" itemprop="slogan">
 			<li class="logo-description--text">Mathematics</li>
 			<li class="logo-description--text">Science</li>
 			<li class="logo-description--text">Engineering</li>
@@ -31,8 +50,8 @@
 	</section>
 
 	<!--Like <section>, <article> acts very similar to a <div>. It is new in HTML5. It specifies independent, self-contained content. Can be used for forum post, blog post, news story, comment.-->
-	<article class="post post-wrapper">
-		<div class="post__our-journey">
+	<article class="post post-wrapper" itemscope itemtype="http://schema.org/CreativeWork">
+		<div class="post__our-journey" itemprop="abstract">
 		<h1 class="post__our-journey_title">Conquered Steps</h1>
 		<h2 class="post__our-journey_subtitle">The lessons we learned</h2>
 		<p> This is the story of Us; a group of young people from less privileged communities, who are blessed with immense talents and virtues, and who, motivated by the passion to discover and learn, undertook the path of education, determined to achieve their goals. Each step conquered is a testament to the perseverance and determination that characterizes each one of us.
@@ -51,44 +70,62 @@
 			"The MACILE family congratulates each of you scholars for your courage and the job well done. Congratulations!"
 		</P>
 		</div>
-		<div class="post-side post-side--right">
+		<div class="post-side post-side--right" itemprop="text">
 			<p>We are natives of San Gregorio de Nigua, Bajos de Haina and Madre Vieja in the Province of San Cristóbal, Dominican Republic.</p> 
 		</div>
 		<figure class="picture-group">
-			<img src="app/assets/images/salvia-team.png" alt="We are the winners">
+      <picture>
+        <source srcset="app/assets/images/salvia-team.webp" type="image/webp">
+        <img src="app/assets/images/salvia-team.png" alt="We are the winners" itemprop="image">
+      </picture>
 			<figcaption class="picture-group--names" #picture-group>We are the high school graduates (left to right): Lehysen Jiménez, María Rosa Morbán, María De Los Angeles Guillén, Anabel Hinojosa.</figcaption>
 		</figure> <div></div>
 		<div class="post__our-journey">
 			<h1 class="post__our-journey_title">Our Common Story</h1>
-			<p>
+			<p itemprop="about">
 			This is our common story, that at different points in time each of us was admitted to the MACILE Summer Academy. We are also MACILE scholars. MACILE is an education program of Complex Systems Optimization Lab (COSOLA). It stands for Mathematics, Sciences, Engineering, and Language, in Spanish. MACILE is dedicated to advance engineering education in less advantaged communities. It has operated in our region of Itabo-San Gregorio de Nigua since 2007. MACILE nurtures the talents of young people from poor backgrounds, like us, who love math and seek to pursue studies and careers in STEM related fields.  
 			</p>
 		</div>
 		<div class="post__our-journey">
-			<h1 class="post__our-journey_title">More About Us</h1>
-			<h2 class="post__our-journey--our-story post__our-journey_student">Leydi Celeste Cuevas Muñoz</h2>
-			<p>Four and a half years ago, I started the university without a clear idea of what I wanted to study, but decided to take the step. I did not allow my doubts to stop me because I had the full knowledge of my willingness to learn.</p>
-			<p>When I decided to study mechanical engineering, I received positive and negative comments. People who knew me said it was a good decision that fit my profile. Those who thought they knew me said they didn't see me in that field. However, I stayed firm and listened to wise advices.</p>
-			<p>Now that I have finished, I would like to acquire 1 to 2 years of work experience before pursuing a master degree. Three areas I’m interested are: chemistry, materials and thermodynamics.
-			</p>
-			<p>I thank God infinitely for having been privileged. That's how I feel when I realize that I didn't miss anything. I always had my family, counselors and friends. I was never alone in the battle, I thank each of them, because they may not know that their support was a remedy for uncertainties and sorrows. My achievements are not so mine, they are ours.</p>
+      <h1 class="post__our-journey_title">More About Us</h1>
+        <h2 class="post__our-journey--our-story post__our-journey_student">Leydi Celeste Cuevas Muñoz
+        </h2>
+        <p>Four and a half years ago, I started the university without a clear idea of what I wanted to
+          study, but decided to take the step. I did not allow my doubts to stop me because I had the full knowledge of
+          my willingness to learn.</p>
+        <p>When I decided to study mechanical engineering, I received positive and negative
+          comments. People who knew me said it was a good decision that fit my profile. Those who thought they knew me
+          said they didn't see me in that field. However, I stayed firm and listened to wise advices.</p>
+        <p>Now that I have finished, I would like to acquire 1 to 2 years of work experience
+          before pursuing a master degree. Three areas I’m interested are: chemistry, materials and thermodynamics.
+        </p>
+        <p>I thank God infinitely for having been privileged. That's how I feel when I realize
+          that I didn't miss anything. I always had my family, counselors and friends. I was never alone in the battle,
+          I thank each of them, because they may not know that their support was a remedy for uncertainties and sorrows.
+          My achievements are not so mine, they are ours.</p>
 		</div>
 		<div class="post-side post-side--right">
-			<img src="app/assets/images/LeydiCeleste.png" alt="Leydi Celeste Cuevas">
+      <picture>
+        <source srcset="app/assets/images/LeydiCeleste.webp" type="image/webp">
+        <img src="app/assets/images/LeydiCeleste.png" alt="Leydi Celeste Cuevas">
+      </picture>
 			<p class="post-side_text">
 			 B.S. degree in Mechanical Engineering; Instituto Technologico de Santo Domingo (INTEC); Octuber 2019. Completed an internship in Marítima Dominicana. Currently study English at the American Dominican Cultural Institute with COSOLA scholarship. 
 			</p>
 		</div>
 
-	   <blockquote class="post-quote"><p>“Whatever you want to do, if you want to be great at it, you have to love it and be able to make sacrifices for it.” - Maya Angelous </p></blockquote>
+	   <blockquote class="post-quote"><p>“Whatever you want to do, if you want to be great at it, you have to love it and be able to make sacrifices for it.” - Maya Angelou</p></blockquote>
 
 	   <div class="post__our-journey">
 			<h2 class="post__our-journey_student">María Rosa Morbán</h2>
 			<p>I am grateful I concluded with honors the technical high school degree with mention in Industrial Mechanic, at the Instituto Politécnico Loyola, San Cristóbal,RD. I also completed an internship at Maritíma Dominicana and currently study English at the American Dominican Cultural Institute. I plan to follow the SALVIA program with COSOLA then attend the university to study software engineering.</p>
-			<p>In elementary school, I frequently received awards and felt happy. When I was admitted to a group where all were high achievers, I felt incompetent and discouraged. Many were better than me. I asked God for help and accepted that I had to try harder. I did it and it was difficult, but I managed to improve. I internalized Dr. Vargas's advice: "The main thing is not intelligence, but work." This is now my motto. I share it with those who feel how I felt because it has helped me overcome difficulties. “While my determination to achieve success is powerful enough, failure will not overwhelm me”- Og Mandino. I know that "what I think I attract"; That's why I think of good things to attract them. That’s the secret! .</p>
+			<p>In elementary school, I frequently received awards and felt happy. When I was admitted to a group where all were high achievers, I felt incompetent and discouraged. Many were better than me. I asked God for help and accepted that I had to try harder. I did it and it was difficult, but I managed to improve. I internalized Dr. Vargas's advice: "The main thing is not intelligence, but work." This is now my motto. I share it with those who feel how I felt because it has helped me overcome difficulties. “While my determination to achieve success is powerful enough, failure will not overwhelm me”- Og Mandino. I know that "what I think I attract"; That's why I think of good things to attract them. That’s the secret!</p>
 		</div>
 		<div class="post-side post-side--right">
-			<img src="app/assets/images/MariaRosa.png" alt="Maria Rosa Morbán">
+      <picture>
+        <source srcset="app/assets/images/MariaRosa.webp" type="image/webp">
+        <img src="app/assets/images/MariaRosa.png" alt="Maria Rosa Morbán">
+      </picture>
 			<p class="post-side_text">
 			 I am María Rosa.I know that "what I think I attract"; That's why I think of good things to attract them. That’s the secret! 
 			</p>
@@ -101,7 +138,10 @@
 			<p>Icompleted the technical high school degree with mention in electronic communication at the Loyola. I did an internship at Claro, Santo Domingo. I currently study English at the Dominican American Cultural Institute. I'm interested in economics, international relations, and diplomacy. My inmediate plan is to study economics while earning practical experience in technology in the SALVIA Apprenticeship Program.</p>
 		</div>
 		<div class="post-side post-side--right">
-			<img src="app/assets/images/MariaGuillen.png" alt="Maria Guillén">
+      <picture>
+        <source srcset="app/assets/images/MariaGuillen.webp" type="image/webp">
+        <img src="app/assets/images/MariaGuillen.png" alt="Maria Guillén">
+      </picture>
 			<p class="post-side_text">
 			 I am María De Los Angles. I'm interested in economics, international relations, and diplomacy.
 			</p>
@@ -116,7 +156,10 @@
 			<p>While preparing to serve my mission, I am advancing my learning in math, economics, and programing at SALVIA, a technology apprenticeship program of Comples Systems Optimization Lab.</p>
 		</div>
 		<div class="post-side post-side--right">
-			<img src="app/assets/images/LehysenJimenez.png" alt="Lehysen Jiménez">
+      <picture>
+        <source srcset="app/assets/images/LehysenJimenez.webp" type="image/webp">
+        <img src="app/assets/images/LehysenJimenez.png" alt="Lehysen Jiménez">
+      </picture>
 			<p class="post-side_text">
 			 I am Lehysen. I'm interested in robotics and artificial intelligence. Next step: serving a mission for the Church of Jesus Christ of Latter-day Saints.
 			</p>
@@ -128,7 +171,10 @@
 			<p>I concluded with honors a technical high school degree with mention in information technology at the Instituto Politécnio de Haina (IPHA), Bajos Haina, DR. I currently study English at the Dominican American Cultural Institute in Santo Domingo. My step is to complete a 2-year program in software development at ITLA, starting in January 2020. My goal is to complete university level studies in computer programming with honors, learn languages, and study abroad. I longs to go to France.</p>
 		</div>
 		<div class="post-side post-side--right">
-			<img src="app/assets/images/AnabelHinojosa.png" alt="Anabel Hinojosa">
+      <picture>
+        <source srcset="app/assets/images/AnabelHinojosa.webp" type="image/webp">
+        <img src="app/assets/images/AnabelHinojosa.png" alt="Anabel Hinojosa">
+      </picture>
 			<p class="post-side_text">
 			 I'm Anabel. My goal is to earn a college degree in computer programming, learn languages, and study abroad. I dream to go to France. Next step: ITLA, where I'll major in software development.
 			</p>
@@ -140,41 +186,65 @@
 			<h1 class="post__our-journey_title">Short Bios</h1>
 		</div>
 		<div class="post-albums">
-			<div class="post-albums__scholar">
-			<img class="post-albums__scholar--photo" src="app/assets/images/nicolepinales2.png">
+       <div class="post-albums__scholar" itemscope itemtype="http://schema.org/Person">
+        <picture>
+          <source srcset="app/assets/images/nicolepinales2.webp" type="image/webp">
+          <img class="post-albums__scholar--photo" src="app/assets/images/nicolepinales2.png" itemprop="image">
+        </picture>
 			<div class="post-albums__scholar--briefs">
-				<h2 class="post-albums__scholar--name">Nicol Mari Pinales</h2>
-				<p class="post-albums__scholar--cv"> I am Nicol Mari. I'm second year student at ZAMORANO University, Tegucigalpa Honduras, mayoring in engineering in food agribusiness. I'm attending with a scholarship from the Dominican government. Attended the Instituto Politécnico Loyola. Graduated from high in 2017 with a certification in agriculture. </p>	
+				<h2 class="post-albums__scholar--name" itemprop="name">Nicol Mari Pinales</h2>
+				<p class="post-albums__scholar--cv" itemprop="description"> I am Nicol Mari. I'm second year student at ZAMORANO
+				  University, Tegucigalpa Honduras, mayoring in engineering in food agribusiness. I'm attending with a scholarship
+				  from the Dominican government. Attended the Instituto Politécnico Loyola. Graduated from high in 2017 with a
+				  certification in agriculture. </p>
 			</div>
 		</div>
-		<div class="post-albums__scholar">
-			<img class="post-albums__scholar--photo" src="app/assets/images/YaraisaArias.png">
+    <div class="post-albums__scholar" itemscope itemtype="http://schema.org/Person">
+      <picture>
+        <source srcset="app/assets/images/YaraisaArias.webp" type="image/webp">
+        <img class="post-albums__scholar--photo" src="app/assets/images/YaraisaArias.png" itemprop="image">
+      </picture>
 			<div class="post-albums__scholar--briefs">
-				<h2 class="post-albums__scholar--name">Yaraisa Arias Rodríguez</h2>
-				<p class="post-albums__scholar--cv"> Hi, I am Yaraisa. I am mayoring in software engineering engineering at the Universidad APEC in Santo Domingo; attending with a scholarship. My goal is to specialize in Cybersecurity abroad. I completed high school in 2017 with a technical certification in accounting. Studied English and got into computer coding at MACILE. </p>	
+				<h2 class="post-albums__scholar--name" itemprop="name">Yaraisa Arias Rodríguez</h2>
+				<p class="post-albums__scholar--cv" itemprop="description"> Hi, I am Yaraisa. I am mayoring in software engineering
+				  engineering at the Universidad APEC in Santo Domingo; attending with a scholarship. My goal is to specialize in
+				  Cybersecurity abroad. I completed high school in 2017 with a technical certification in accounting. Studied
+				  English and got into computer coding at MACILE. </p>
 			</div>
 		</div>
-		<div class="post-albums__scholar albums-wrapper">
-			<img class="post-albums__scholar--photo" src="app/assets/images/Elderjimenez2.png">
+    <div class="post-albums__scholar albums-wrapper" itemscope itemtype="http://schema.org/Person">
+      <picture>
+        <source srcset="app/assets/images/Elderjimenez2.webp" type="image/webp">
+        <img class="post-albums__scholar--photo" src="app/assets/images/Elderjimenez2.png" itemprop="image">
+      </picture>
 			<div class="post-albums__scholar--briefs">
-				<h2 class="post-albums__scholar--name">Elder Jiménez</h2>
-				<p class="post-albums__scholar--cv"> I am Kemsen Jiménez. I graduated from high school in 2018 with a technical cerfitication in computer information systems. I attended the Politécnico Francisco J. Peynado in San Cristóbal. Currently, I'm serving a 2-year mission for the Church of Jesus Christ of Latter-day Saints in Honduras. My plan is to continue my studies when I return home from the mission. </p>	
+				<h2 class="post-albums__scholar--name" itemprop="name">Elder Jiménez</h2>
+				<p class="post-albums__scholar--cv" itemprop="description"> I am Kemsen Jiménez. I graduated from high school in
+				  2018 with a technical cerfitication in computer information systems. I attended the Politécnico Francisco J.
+				  Peynado in San Cristóbal. Currently, I'm serving a 2-year mission for the Church of Jesus Christ of Latter-day
+				  Saints in Honduras. My plan is to continue my studies when I return home from the mission. </p>
 			</div>
 		</div>
-		<div class="post-albums__scholar">
-			<img class="post-albums__scholar--photo" src="app/assets/images/KirssyFernandez.png">
+    <div class="post-albums__scholar" itemscope itemtype="http://schema.org/Person">
+      <picture>
+        <source srcset="app/assets/images/KirssyFernandez.webp" type="image/webp">
+        <img class="post-albums__scholar--photo" src="app/assets/images/KirssyFernandez.png" itemprop="image">
+      </picture>
 			<div class="post-albums__scholar--briefs">
-				<h2 class="post-albums__scholar--name">Kirssy Fernández Roja </h2>
-				<p class="post-albums__scholar--cv"> I am 14 and a freshman in high school. In 7th grade, I was selected to the national volleyball team by the Dominican Olympic Committee. I'm attending high school at Colegio Claret, a Catholic private school in Santo Domingo, with a sport scholarship. I'm Libero; trained by coaches at the club Siglo XXI in Itabo. My goal is to be a math teacher. My passion is volleyball.</p>	
+				<h2 class="post-albums__scholar--name" itemprop="name">Kirssy Fernández Roja </h2>
+				<p class="post-albums__scholar--cv" itemprop="description"> I am 14 and a freshman in high school. In 7th grade, I was
+				  selected to the national volleyball team by the Dominican Olympic Committee. I'm attending high school at Colegio
+				  Claret, a Catholic private school in Santo Domingo, with a sport scholarship. I'm Libero; trained by coaches at
+				  the club Siglo XXI in Itabo. My goal is to be a math teacher. My passion is volleyball.</p>
 			</div>
 		 </div>
 		</div>	
 	</section>
 	<footer class="page-footer">
-		<div class="page-footer--post">
-			<h3 class="page-footer--lab">Complex Systems Optimization Lab </h3>
-			<h2 class="page-footer--name">COSOLA</h2>
-			<h4 class="page-footer--academy">MACILE Education Program</h4>
+		<div class="page-footer--post" itemscope itemtype="http://schema.org/Organization">
+			<h3 class="page-footer--lab" itemprop="legalname">Complex Systems Optimization Lab </h3>
+			<h2 class="page-footer--name" itemprop="alternateName">COSOLA</h2>
+			<h4 class="page-footer--academy" itemprop="brand">MACILE Education Program</h4>
 			<p class="page-footer--text"> Copyright 2007-2019 by COSOLA. All rights reserved</p>
 		</div>
 	</footer>
