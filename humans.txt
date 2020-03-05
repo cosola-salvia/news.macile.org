@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Misscs>
+    <Maria Morban>
+    <Maria Guillen>
+    <Lehysen Jimenez>
+    <SC Vargas>
+
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+  
