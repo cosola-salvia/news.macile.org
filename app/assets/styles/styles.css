@@ -30,6 +30,10 @@ p {
 	text-align: center;
 }
 
+.logo-btn {
+	margin-top: 0.425em;
+}
+
 /* To reduce the height of the nav */
 .logo-img {
 	height: 180px;
@@ -46,12 +50,14 @@ p {
 
 .logo-description {
 	margin-top: 0;
+	display: flex;
+	justify-content: center;
 }
 
 .logo-description--text {
-	display: inline-block;
+	list-style: none;
 	padding: 0 0.313em;
-	font-size: 1rem;
+	font-size: 0.75rem;
 }
 
 @media only screen and (min-width: 800px) {
@@ -70,8 +76,7 @@ p {
 	}
 
 	.logo-description--text {
-		display: inline-block;
-		padding: 0 1.19em;
+		padding: 0 1.2em;
 		font-size: 1.3rem;
 	}
 }
