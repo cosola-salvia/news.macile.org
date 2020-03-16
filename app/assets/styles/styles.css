@@ -57,7 +57,7 @@ p {
 .logo-description--text {
 	list-style: none;
 	padding: 0 0.313em;
-	font-size: 1rem;
+	font-size: 0.75rem;
 }
 
 @media only screen and (min-width: 800px) {
