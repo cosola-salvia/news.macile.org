@@ -24,6 +24,30 @@ p {
 	line-height: 1.55;
 }
 
+.language-menu {
+	position: relative;
+  	display: inline-block;
+  	float: right;
+  	margin-top: 0.625em;
+}
+
+.language-menu--btn {
+	font-size: 1.2em;
+	background: none;
+	border: none;
+	color: #091342;
+}
+
+.language-menu--item {
+	display: none;
+  	color: #444;
+  	padding: 0.475em;
+}
+
+.language-menu:hover .language-menu--item {
+	display: block;
+}
+
 .primary-nav {
 	/* to centralize the div. we have to verify what's happening. */
 	margin: auto;
