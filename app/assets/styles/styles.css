@@ -27,19 +27,19 @@ p {
 .language-menu {
 	width: 100%;
 	font-size: 1.15rem;
-  	text-align: right;
-  	background: #091342;
-  	margin-bottom: 0.625em;
-  	padding: 0.5em;
+  text-align: right;
+  background: #091342;
+  margin-bottom: 0.625em;
+  padding: 0.5em;
 }
 
 .language-menu--item {
-  	color: #fff;
-  	padding: 0.475em;
+  color: #fff;
+  padding: 0.475em;
 }
 
 .language-menu--item:hover {
-  	color: #777;
+  color: #777;
 }
 
 .primary-nav {
