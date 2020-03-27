@@ -26,6 +26,13 @@
 	<meta name="twitter:domain" content="macile.org">	
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="app/assets/styles/styles.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
   <!-- Matomo -->
   <script type="text/javascript">
     var _paq = window._paq || [];
@@ -42,24 +49,30 @@
   </script>
   <!-- End Matomo Code -->
 </head>
-<body>
-	<nav class="primary-nav" itemscope itemtype="http://schema.org/Organization">
-	    <a href="/" itemprop="url">
-	      <picture>
-	        <source srcset="app/assets/images/logo-macile.webp" type="image/webp">
-	        <img class="logo-img" src="app/assets/images/logo-macile.jpg" itemprop="logo">
-	      </picture>
-	    </a>
-	    <div class="logo-text">
-	    	<h1 class="logo-brand" itemprop="brand">MACILE</h1>
-			<ul class="logo-description" itemprop="slogan">
-				<li class="logo-description--text">Mathematics</li>
-				<li class="logo-description--text">Science</li>
-				<li class="logo-description--text">Engineering</li>
-				<li class="logo-description--text">Language</li>
-			</ul>
-	    </div>
-    </nav>
+<body>				
+	<nav itemscope itemtype="http://schema.org/Organization">
+		<div class="language-menu">
+			<a class="language-menu--item" href="/">English</a>
+			<a class="language-menu--item" href="/es/">Español</a>
+		</div>
+	  	<div class="primary-nav">
+	    	<a class="logo-btn" href="/" itemprop="url">
+		    	<picture>
+			       	<source srcset="app/assets/images/logo-macile.webp" type="image/webp">
+			        <img class="logo-img" src="app/assets/images/logo-macile.jpg" itemprop="logo">
+		      	</picture>
+		    </a>
+		    <div class="logo-text">
+		    	<h1 class="logo-brand" itemprop="brand">MACILE</h1>
+				<ul class="logo-description" itemprop="slogan">
+					<li class="logo-description--text">Mathematics</li>
+					<li class="logo-description--text">Science</li>
+					<li class="logo-description--text">Engineering</li>
+					<li class="logo-description--text">Language</li>
+				</ul>
+		    </div>
+		</div>
+  	</nav>
 	<!-- A <section> acts just like a <div> except it tells browsers and search engines that it is a section on our page -->
 	<section class="home-hero">
 		<div class="home-hero--inner">
