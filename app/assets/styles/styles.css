@@ -38,7 +38,7 @@ p {
 }
 
 .language-menu--item:hover {
-  color: #ffc600;
+  color: #fdfd56;
 }
 
 .primary-nav {
@@ -53,14 +53,15 @@ p {
 
 .logo-brand {
 	color: #091342;
-	font-family: 'Baskerville Old Face'; 
+	font-family: 'Trajan Pro Bold'; 
 	font-size: 2rem;
-	font-weight: 500;
-	margin: 0;
+  margin: 0;
 }
 
 .logo-description {
 	display: flex;
+  font-family: 'Trajan Pro Regular'; 
+  color: #a7a9ac;
 	justify-content: center;
 	margin-top: 0;
 	padding-left: 0;
@@ -119,7 +120,7 @@ p {
 
 	.logo-description--text {
 		padding: 0 1.35em;
-		font-size: 1.25rem;
+		font-size: 1.3rem;
 	}
 }
 
