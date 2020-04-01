@@ -26,6 +26,7 @@ p {
 .language-menu {
   width: 100%;
   font-size: 1.15rem;
+  font-family: 'Trajan Pro Regular'; 
   text-align: right;
   background: #091342;
   margin-bottom: 0.625em;
