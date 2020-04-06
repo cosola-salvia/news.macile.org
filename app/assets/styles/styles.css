@@ -47,11 +47,6 @@ p {
 	text-align: center;
 }
 
-.logo-img {
-	height: 90px;
-	width: auto;
-}
-
 .logo-brand {
 	color: #1a1451;
 	font-family: 'Trajan Pro Bold'; 
@@ -81,11 +76,6 @@ p {
 		grid-template-columns: auto auto;
 	}
 
-	.logo-img {
-		height: 125px;
-		width: auto;
-	}
-
 	.logo-brand {
 		font-size: 4.7rem;
 	}
@@ -103,11 +93,6 @@ p {
 	.primary-nav {
 		width: 800px;
 		margin-bottom: 0.4em;
-	}
-
-	.logo-img {
-		height: 180px;
-		width: auto;
 	}
 
 	.logo-brand {
