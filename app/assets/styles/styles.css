@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'TrajanPro-Bold';
+  src: url('/../fonts/TrajanPro-Bold.eot?#iefix') format('embedded-opentype'),  url('/../fonts/TrajanPro-Bold.otf')  format('opentype'),
+       url('/../fonts/TrajanPro-Bold.woff') format('woff'), url('/../fonts/TrajanPro-Bold.ttf')  format('truetype'), url('/../fonts/TrajanPro-Bold.svg#TrajanPro-Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('/../fonts/TrajanPro-Regular.eot?#iefix') format('embedded-opentype'),  url('/../fonts/TrajanPro-Regular.otf')  format('opentype'),
+       url('/../fonts/TrajanPro-Regular.woff') format('woff'), url('/../fonts/TrajanPro-Regular.ttf')  format('truetype'), url('/../fonts/TrajanPro-Regular.svg#TrajanPro-Regular') format('svg');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,7 +38,7 @@ p {
 .language-menu {
   width: 100%;
   font-size: 1.15rem;
-  font-family: 'Trajan Pro Regular'; 
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
   text-align: right;
   background: #1a1451;
   margin-bottom: 0.625em;
@@ -49,14 +61,14 @@ p {
 
 .logo-brand {
 	color: #1a1451;
-	font-family: 'Trajan Pro Bold'; 
+	font-family: 'Trajan Pro Bold', 'Times New Roman', serif; 
 	font-size: 2rem;
   margin: 0;
 }
 
 .logo-description {
 	display: flex;
-  font-family: 'Trajan Pro Regular'; 
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
   color: #606060;
 	justify-content: center;
 	margin-top: 0;
