@@ -3,15 +3,8 @@ body {
 	background-color: #00004d; 
 	color: #808080;
 	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
 	line-height: 1.15;
 	height: 100%;
-}
-
-img {
-	width: 100%;
-	height: auto;
 }
 
 hr {
@@ -72,7 +65,7 @@ hr.image {
 }
 
 .primary-nav--banner-vol {
-	color: #fff
+	color: #fff;
 	font-weight: 300;
 	font-size: 0.8em;
 }
