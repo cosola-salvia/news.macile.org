@@ -23,6 +23,11 @@ p {
   line-height: 1.55;
 }
 
+.newsletter-date {
+  color: #fdfd56;
+  font-size: 0.8rem;
+}
+
 .language-menu {
   width: 100%;
   font-size: 1.15rem;
