@@ -8,15 +8,31 @@
 	<link rel="stylesheet" type="text/css" href="/app/assets/styles/bulletin.css">
 </head>
 <body>
-	<nav class="primary-nav">
-		<div class="language-menu">
-			<a class="language-menu--item" href="#acadmy">Academy Bulletin</a>
-			<a class="language-menu--item" href="#home">Home</a>	
-			<a class="language-menu--item" href="/">English </a>
-			<a class="language-menu--item" href="/es">Español</a>
+	<nav>
+		<div class="language-menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="language-menu--item" href="/" itemprop='url'>
+        <span itemprop="name">English</span>
+      </a>
+      <a class="language-menu--item" href="/es/" itemprop='url'>
+        <span itemprop="name">Español</span>
+      </a>
 		</div>
-		<div class="primary-nav--logo">
-			<h1>Mathematics, Science, Engineering, and Language</h1>
+    <div class="primary-nav" itemscope itemtype="http://schema.org/Organization">
+      <a class="logo-btn" href="/" itemprop="url">
+        <picture>
+            <source srcset="/images/newsletter/logo-macile.webp" type="image/webp">
+            <img class="logo-img" src="/images/newsletter//logo-macile.jpg" itemprop="logo">
+          </picture>
+      </a>
+      <div class="logo-text">
+        <h1 class="logo-brand" itemprop="brand">MACILE</h1>
+        <ul class="logo-description" itemprop="slogan">
+          <li class="logo-description--text">Mathematics</li>
+          <li class="logo-description--text">Science</li>
+          <li class="logo-description--text">Engineering</li>
+          <li class="logo-description--text">Language</li>
+        </ul>
+      </div>
 		</div>
 		<div class="primary-nav--banner">
 			<p class="primary-nav--banner-vol">MACILE Academies Bulletin</p>
