@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<wmeta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-idth, initial-scale=1.0" />
 	<title>MACILE Academy News</title>
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="/app/assets/styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="/app/assets/styles/bulletin.css">
 </head>
 <body>
-	<nav class="primary-nav">
-		<div class="language-menu">
-			<a class="language-menu--item" href="#acadmy">Academy</a>
-			<a class="language-menu--item" href="#home">Home</a>	
-			<a class="language-menu--item" href="/">English </a>
-			<a class="language-menu--item" href="/es">Español</a>
+	<nav>
+		<div class="language-menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+      <a class="language-menu--item" href="/" itemprop='url'>
+        <span itemprop="name">English</span>
+      </a>
+      <a class="language-menu--item" href="/es/" itemprop='url'>
+        <span itemprop="name">Español</span>
+      </a>
 		</div>
-		<div class="primary-nav--logo">
-			<h1>Mathematics, Science, Engineering, and Language</h1>
-	
-		</div>
-		<div class="primary-nav--banner">
-			<p class="primary-nav--banner-vol">MACILE Academies Bulletin</p>
-			<p class="primary-nav--banner-vol">Summer 2007-2008</p>	
-			<p class="primary-nav--banner-vol">Volume No. 1</p>
+    <div class="primary-nav" itemscope itemtype="http://schema.org/Organization">
+      <a class="logo-btn" href="/" itemprop="url">
+        <picture>
+            <source srcset="/images/newsletter/logo-macile.webp" type="image/webp">
+            <img class="logo-img" src="/images/newsletter//logo-macile.jpg" itemprop="logo">
+          </picture>
+      </a>
+      <div class="logo-text">
+        <h1 class="logo-brand" itemprop="brand">MACILE</h1>
+        <ul class="logo-description" itemprop="slogan">
+          <li class="logo-description--text">Mathematics</li>
+          <li class="logo-description--text">Science</li>
+          <li class="logo-description--text">Engineering</li>
+          <li class="logo-description--text">Language</li>
+        </ul>
+      </div>
 		</div>
 	</nav>
+	<div class="primary-nav--banner">
+		<p class="primary-nav--banner-vol">MACILE Academies Bulletin</p>
+		<p class="primary-nav--banner-vol">Summer 2007-2008</p>	
+		<p class="primary-nav--banner-vol">Volume No. 1</p>
+	</div>
 	
 	<div class="bupage">
 		<h1 class="bupage-hero--title">SUMMER ACADEMY: 2007 &#38; 2008</h1>
 		<h2 class="bupage-hero--subtitle">Advancing engineering education in less-advantaged communities</h2> 
 		<div class="buarchive">
 			<article class="buarticle">
-				<img src="assets/images/SA2007/group2-sa2007-09.jpg">
+				<img src="/images/bulletin/SA2007/group2-sa2007-09.jpg">
 				<p class="buarticle-hero--large">We are the aventurers; the true founders. High school students from Itabo y San Gregorio de Nigua selected for the <strong>FIRST</strong> MACILE Summer Academy, Jul 2007.</p>
 			</article>
 			<article class="buarticle buarticle-main">
@@ -39,16 +55,16 @@
 				Courses and activities are designed to stimulate curiosity, creativity, and passion for learning; also to build the students’ skills, analytical abilities, and rational thinking. The program was piloted in July 2007 and 2008.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/SA2007/bbq-2007-012.jpg">
+				<img src="/images/bulletin/SA2007/bbq-2007-012.jpg">
 				<p>The 2007 Summer Academy lasted for three weeks and included mathematics only. 47 students completed the program. They attended from 8:00 AM to 12:00 PM, Monday through Friday, and a healthy breakfast snack was provided. We celebrated the end of the summer with a barbeque.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/SA2007/sa2007-school-9.jpg">
+				<img src="/images/bulletin/SA2007/sa2007-school-9.jpg">
 				<h3 class="buarticle-main--title">People that made it possible in the field</h3>
 				<p>Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders. They visited the schools, selected students, provided the space, and assisted with logistics</p>
 			</article>
 			<article class="buarticle buarticle-violet">
-				<img src="assets/images/SA2007/group1-sa2007-11.jpg">
+				<img src="/images/bulletin/SA2007/group1-sa2007-11.jpg">
 				<p>Summer Academy 2007. Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Far right, Yahaira Pinales, Dominican teacher that recruited the students. </p>
 			</article>
 			<article class="buarticle">
@@ -75,11 +91,11 @@
 				</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/SA2007/itabo-2007-s.jpg">
+				<img src="/images/bulletin/SA2007/itabo-2007-s.jpg">
 				<p>MACILE Summer Academy 2007 and 2008 were conduceted in July at the Itabo Elementary School in Itabo, San Critóbal, Dominican Republic.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/espanol-2008-4.jpg">
+				<img src="/images/bulletin/espanol-2008-4.jpg">
 				<p>Spanish teacher, Antonia Asencio, and members of her class, produly displaying resources use to improve their learning.</p>
 			</article>
 			<article class="buarticle">
@@ -89,23 +105,23 @@
 				<p>Los indios de Quisqueya, the accompaning history book and foundation of the MACILE curriculum, was donated by the Tavares Foundation. The author, Juan Tómas Tavares Kelnes, permited its use.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/sa2008-spanish-s.jpg">
+				<img src="/images/bulletin/sa2008-spanish-s.jpg">
 				<p>Learning language and enjoying the folklore. Students dancing at the bits of the grum and güira, singing the <i>salve</i>,learning Spanish.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/eng-tech-sa2008-s.jpg">
+				<img src="/images/bulletin/eng-tech-sa2008-s.jpg">
 				<p>Students built toothpick bridges and learned about solar energy. This team is testing their bridge resistance.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/group-2008-014.jpg">
+				<img src="/images/bulletin/group-2008-014.jpg">
 				<p>MACILE <i>nourishes the innate curiosity and wonderful imagination of young people rather than discourage them</i>, as Einstein admonished, to expand their horizons.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/busLeaders-2008-m.jpg">
+				<img src="/images/bulletin/busLeaders-2008-m.jpg">
 				<p>Visit from Dominican business leader and gov officials. They spoke about the job markets and the government scholarship program. Students learned about opportunities and requirements to be successful.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/tdi-2008-math_3.jpg">
+				<img src="/images/bulletin/tdi-2008-math_3.jpg">
 				<h4 class="buarticle-heading">Teacher Development</h4>
 				<p>Dominican math teachers participating in two weeks long math training workshop: improving learning of basic algebra.</p>
 			</article>
@@ -120,23 +136,23 @@
 				<p class="buarticle-scholarships--info">The MACILE scholarship program is merit-based; directed at talented yound people from Itabo-Nigua schools. The program opens up opportunities for students to complete their pre-college education and be better prepared to pursue higher learning in STEM fields.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/scholarships/luiz-m-alburquerque-2009.jpg">
+				<img src="/images/bulletin/scholarships/luiz-m-alburquerque-2009.jpg">
 				<p>Luiz Manuel Alburquerque, 9th grade, Colegio Padre Zegri, Nigua.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/scholarships/elizabeth-ramirez-2009.jpg">
+				<img src="/images/bulletin/scholarships/elizabeth-ramirez-2009.jpg">
 				<p>Elizabeth Ramirez, 9th grade, Colegio Padre Zegri, Nigua.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/scholarships/luz-b-pinales-2009.jpg">
+				<img src="/images/bulletin/scholarships/luz-b-pinales-2009.jpg">
 				<p>Luz B. Pinalez, 9th grade, Instituto Politécnico Loyola, San Cristóbal.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/scholarships/albania_martinez.jpg">
+				<img src="/images/bulletin/scholarships/albania_martinez.jpg">
 				<p>Albania Martinez, 9th grade, Loyola, San Cristóbal.</p>
 			</article>
 			<article class="buarticle">
-				<img src="assets/images/scholarships/andreina_troncoso.jpg">
+				<img src="/images/bulletin/scholarships/andreina_troncoso.jpg">
 				<p>Andreina De Jesús T., 9th grade, Colegio Padre Zegri, Nigua.</p>
 			</article>
 			
@@ -145,92 +161,18 @@
 	<br>
 	<br>
 	<br>
-	<div class="feature">
-		<div class="feapage feature-section">
-		<h1 class="feature-section--title">Highlight</h1>
-			<div class="pagesection">
-				<article class="fearticle feature-section--banner">
-				
-				</article>
-				<article class="fearticle">
-					<h1 class="feature-section--title">Engineering Robust Learning Environments Through Continous Improvement</h1>
-					<p class="feature-section--intro">
-						The 2008 program was adjusted in light of these observations.  The duration was extended to five weeks and the curriculum was redesigned to include math, engineering technology, Spanish literacy, and activities such as chess, puzzles, field trips and guest speakers.  
-					</p>
-					<button class="feature-button" style="vertical-align: middle"><span>Download PDF</span></button>
-				</article>
-				<article class="fearticle"> 3
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-				</article >
-				<article class="fearticle"> 4
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-				</article>
-				<article class="fearticle"> 5
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-				</article>
-				<article class="fearticle"> 5
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-					<hr>
-				</article>
-			</div>	
-		</div>
-	</div>	
-	<br> <br><br>
-	<div class="feapage">
-		<h2>Comments</h2>
-		<dir>
-			<h3> From Our Students</h3>
-			<div>
-				<blockquote> 
-					I learned many examples about good behavior, capitalization…
-				</blockquote>
-			</div>
-			<div>
-				<blockquote>
-					I learned a lot about bridges, solar energy, mathematics, and other things.  I also learned that I should not speak with a loud voice and not to disturb others.  I also learned that working on a team is extremely important to achieving my goals.
 
-				</blockquote>
+		<div class="page-banner__bottom">
+		
+		</div> <br> <br><br>
+		<footer id="page-footer">
+			<div class="page-footer">
+				<h3 class="page-footer--labName">Complex Systems Optimization Lab </h3>
+				<h2 class="page-footer--research">COSOLA</h2>
+				<h4 class="page-footer--education">MACILE Education Program</h4>
+				<p class="page-footer--copyright"> Copyright 2007-2019 by COSOLA. All rights reserved</p>
 			</div>
-			<div>
-				<blockquote>
-					I learned that I should ask questions when in doubt.  If I remain silent I will never learn what I need to learn.  I also learned some mathematics and Spanish.  I did not know how to write an essay.  I used to make textual copy of the material.
-				</blockquote>
-			</div>
-			<div>
-				<blockquote>
-					This summer I learned to read better, how to express my thoughts, and how to analyze problems…
-
-				</blockquote>
-			</div>
-		</dir>
+		</footer>
 	</div>
-	<div>
-		<blockquote>Behind every achievement exists the motivation which is at the foundation of it and which in turn is strenghtened and nourished by the accomplishment of the underdating. - A. Einstein, 1936</blockquote>
-	</div>
-
-	<footer id="page-footer">
-		<div class="page-footer">
-			<h3 class="page-footer--labName">Complex Systems Optimization Lab </h3>
-			<h2 class="page-footer--research">COSOLA</h2>
-			<h4 class="page-footer--education">MACILE Education Program</h4>
-			<p class="page-footer--copyright"> Copyright 2007-2019 by COSOLA. All rights reserved</p>
-		</div>
-	</footer>
-
 </body>
 </html>
