@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'TrajanPro-Bold';
+  src: url('/fonts/TrajanPro-Bold.woff') format('woff'), url('/fonts/TrajanPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('/fonts/TrajanPro-Regular.woff') format('woff'), url('/fonts/TrajanPro-Regular.woff2') format('woff2');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -23,11 +33,17 @@ p {
   line-height: 1.55;
 }
 
+.newsletter-date {
+  color: #fdfd56;
+  font-size: 0.8rem;
+}
+
 .language-menu {
   width: 100%;
   font-size: 1.15rem;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
   text-align: right;
-  background: #091342;
+  background: #1a1451;
   margin-bottom: 0.625em;
   padding: 0.5em 1em;
 }
@@ -38,7 +54,7 @@ p {
 }
 
 .language-menu--item:hover {
-  color: #ffc600;
+  color: #fdfd56;
 }
 
 .primary-nav {
@@ -46,21 +62,17 @@ p {
 	text-align: center;
 }
 
-.logo-img {
-	height: 90px;
-	width: auto;
-}
-
 .logo-brand {
-	color: #091342;
-	font-family: 'Baskerville Old Face'; 
+	color: #1a1451;
+	font-family: 'Trajan Pro Bold', 'Times New Roman', serif; 
 	font-size: 2rem;
-	font-weight: 500;
-	margin: 0;
+  margin: 0;
 }
 
 .logo-description {
 	display: flex;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
+  color: #606060;
 	justify-content: center;
 	margin-top: 0;
 	padding-left: 0;
@@ -77,11 +89,6 @@ p {
 		width: 500px;
 		display: grid;
 		grid-template-columns: auto auto;
-	}
-
-	.logo-img {
-		height: 125px;
-		width: auto;
 	}
 
 	.logo-brand {
@@ -103,11 +110,6 @@ p {
 		margin-bottom: 0.4em;
 	}
 
-	.logo-img {
-		height: 180px;
-		width: auto;
-	}
-
 	.logo-brand {
 		font-size: 8rem;
 	}
@@ -119,7 +121,7 @@ p {
 
 	.logo-description--text {
 		padding: 0 1.35em;
-		font-size: 1.25rem;
+		font-size: 1.3rem;
 	}
 }
 
