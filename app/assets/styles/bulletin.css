@@ -29,7 +29,6 @@ hr.image {
 	width: 100%;
 	height: 2.5em;
 	background: rgb(167, 169, 172);
-	/*background: rgba(0, 0, 77, 0.5);*/
 	color: #fff;
 	margin-right: 1em;
 	display: flex;
@@ -60,12 +59,10 @@ hr.image {
 
 .bupage {
 	padding: 2em;
-	/*background: rgba(167, 169, 172);*/
 	max-width: 87vw;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 4em;
-	/*border-radius: 10px;*/
 }
 
 .buarchive {
@@ -122,7 +119,6 @@ hr.image {
 
 .buarticle:nth-child(1) {
 	grid-column: 1/-1;
-	/*background: rgb(253, 235, 86);*/
 	background: rgba(253, 235, 86, 0.85);
 }
 
@@ -142,12 +138,6 @@ hr.image {
 	background: #00004d;
 }
 
-/*.buarticle:after {
-	color: #808;
-	font-weight: bold;
-	font-family: courier;
-}
-*/
 .buarticle-scholarship--tittle {
 
 }
@@ -168,7 +158,6 @@ hr.image {
 #page-footer {
 	width: 100vw;
 	display: flex;
-	/*background-color: #A7A9AC;*/
 	background-color: rgb(167, 169, 172);
 	border-top: 1px solid #ff9900;
 	margin-top:  7.65em;
@@ -210,11 +199,6 @@ hr.image {
 	margin-top: 0.25em;
 }
 
-/*@media only screen and (min-width: 800px) {
-	.page-footer--name {
-		font-size: 1.75rem;
-	}
-}*/
 
 
 
