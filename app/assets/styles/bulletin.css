@@ -97,7 +97,7 @@ hr.image {
 	color: black;
 }
 
-.buarticle-violet {
+.buarticle-blue {
 	color: white;
 }
 
@@ -134,8 +134,7 @@ hr.image {
 
 .buarticle:nth-child(19) {
 	grid-column: 2 / -1;
-	height: 150px;
-	background: #00004d;
+	background: #603cba;
 }
 
 .buarticle-scholarship--tittle {
