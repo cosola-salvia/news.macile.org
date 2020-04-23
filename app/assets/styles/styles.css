@@ -41,7 +41,7 @@ p {
 .language-menu {
   width: 100%;
   font-size: 1.15rem;
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   text-align: right;
   background: #1a1451;
   margin-bottom: 0.625em;
@@ -64,14 +64,14 @@ p {
 
 .logo-brand {
 	color: #1a1451;
-	font-family: 'Trajan Pro Bold', 'Times New Roman', serif; 
+	font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
 	font-size: 2rem;
   margin: 0;
 }
 
 .logo-description {
 	display: flex;
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif; 
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   color: #606060;
 	justify-content: center;
 	margin-top: 0;
