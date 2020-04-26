@@ -59,7 +59,7 @@ hr.image {
 
 .bupage {
 	padding: 2em;
-	max-width: 87vw;
+	max-width: 85vw;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 4em;
@@ -154,6 +154,49 @@ hr.image {
 	}
 }
 
+.feature-article {
+	max-width: 100vw;
+	margin-top: 3em;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: hsl(240, 100%, 50%);
+	border-bottom: 3px solid hsl(1, 0%, 100%);
+	border-top: 3px solid hsl(1, 0%, 100%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.1),
+				0 20px 20px hsla(0, 0%, 0%, 0.05);
+}
+
+.feature-article--wrapper {
+	max-width: 68vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 1.5em;
+}
+
+.article {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-gap: 1em;
+	grid-auto-flow: dense;
+	margin-top: 0;
+	/* align-items: center;
+	justify-items: center; */
+}
+
+.article-banner {
+	background-color: white;
+	font-family: 'Baskerville Old Face'; 
+	font-size: 2em;
+	color: #00004d;
+	padding: 1em;
+	align-self: center;
+	justify-self: center; 
+
+
+}
 .page-footer {
 	width: 100vw;
 	display: flex;
