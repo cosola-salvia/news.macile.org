@@ -6,6 +6,10 @@ body {
 	height: 100%;
 }
 
+figure {
+	margin: 0;
+}
+
 hr {
 	height: 6px;
 	border: none;
