@@ -121,6 +121,15 @@ hr.image {
 	margin-bottom: 7px;
 }
 
+.buarticle-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.buarticle-section .buarticle-section--img {
+	order: -1;
+}
+
 .buarticle:nth-child(1) {
 	grid-column: 1/-1;
 	background: rgba(253, 235, 86, 0.85);
