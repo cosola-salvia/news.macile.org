@@ -6,6 +6,10 @@ body {
 	height: 100%;
 }
 
+figure {
+	margin: 0;
+}
+
 hr {
 	height: 6px;
 	border: none;
@@ -115,6 +119,15 @@ hr.image {
 
 .buarticle-features--vision-item {
 	margin-bottom: 7px;
+}
+
+.buarticle-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.buarticle-section .buarticle-section--img {
+	order: -1;
 }
 
 .buarticle:nth-child(1) {
