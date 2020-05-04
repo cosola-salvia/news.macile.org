@@ -17,7 +17,7 @@ The 2007 MACILE Summer Academy lasted for three weeks and included mathematics o
 
 _People that made a difference. Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders. They visited the schools, selected students, provided the space, and assisted with logistics_
 
-_MACILE Summer Academy 2007. Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Yahaira Pinales (far right), Dominican teacher that recruited the students._
+_Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina that participated in the MACILE Summer Academy 2007. Yahaira Pinales (center right), Dominican teacher that recruited the students (top right)._
 
 
 ## MACILE Summer Academy 2008
