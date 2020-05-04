@@ -142,7 +142,6 @@ hr.image {
 }
 
 
-
 @media (max-width: 680px) {
 	.buarchive {
 		display: flex;
@@ -176,6 +175,10 @@ hr.image {
 	padding: 1.5em;
 }
 
+/* .article-content {
+	display: flex;
+} */
+
 .article {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -194,9 +197,45 @@ hr.image {
 	padding: 1em;
 	align-self: center;
 	justify-self: center; 
+}
 
+/* Including PDF ! */
+a[href$=".pdf"]:after { 
+	content: "Read more..."; 
+	text-decoration: none;
+	font-size: 1.10em;
+	color: hsla(240, 100%, 56%, 1);
+}
+
+.btn-small--yellow {
+	background-color: hsla(60, 79%, 60%, 1);
+	border: 2px solid yellow;
+	padding: 7px;
+	border-radius: 5px;
 
 }
+
+.btn-small--yellow:hover {
+	background-color: hsla(210, 100%, 56%, 1);
+	border: 2px solid hsla(210, 100%, 80%, 1);
+	padding: 7px;
+	border-radius: 5px;
+
+}
+
+a[href$=".pdf"]:hover::after {
+	color: white;
+}
+
+
+@media(max-width: 680px) {
+	.article {
+		display: flex;
+		flex-direction: column;
+	}
+	
+}
+
 .page-footer {
 	width: 100vw;
 	display: flex;
