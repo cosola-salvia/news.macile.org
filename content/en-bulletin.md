@@ -19,7 +19,7 @@ _Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo,
 
 ### People that made a difference
 
-Local educators helped us out. They visitted the schools and helped select potential students. They provided us the spac and also assisted with logistics.
+Local educators helped us out. They visitted the schools and helped select potential students. They provided us the space and also assisted with logistics.
 
 _Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders._
 
