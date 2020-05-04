@@ -4,6 +4,13 @@ The MACILE Summer Academy is a rigorous five week program for students in grades
 
 _High school students from Itabo y San Gregorio de Nigua selected for the FIRST MACILE Summer Academy, July 2007._
 
+## Objectives
+
+- Nurture the creativity and curiosity of talented young people.
+- Increase access to challenging and stimulating learning environments.
+- Advance engineering education in K-12
+- Increase learning and understanding.
+
 ## MACILE 2007 Summer Academy
 
 The 2007 MACILE Summer Academy lasted for three weeks and included mathematics only. Forty-seven students completed the program. They attended from 8:00 AM to 12:00 PM, Monday through Friday, and a healthy breakfast snack was provided. We celebrated the end of the summer with a barbeque.
@@ -12,12 +19,6 @@ _People that made a difference. Itabo elementary school director(far left), 6th 
 
 _MACILE Summer Academy 2007. Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Yahaira Pinales (far right), Dominican teacher that recruited the students._
 
-### Objectives
-
-- Nurture the creativity and curiosity of talented young people.
-- Increase access to challenging and stimulating learning environments.
-- Advance engineering education in K-12
-- Increase learning and understanding.
 
 ## MACILE Summer Academy 2008
 
