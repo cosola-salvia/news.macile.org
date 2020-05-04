@@ -1,10 +1,10 @@
-# We are the adventurers
-
-We are the adventurers; the true founders. High school students from Itabo y San Gregorio de Nigua selected for the FIRST MACILE Summer Academy, Jul 2007.
-
-## MACILE Summer Academy
+# We are the adventurers—-the true founders
 
 The MACILE Summer Academy is a rigorous five week program for students in grades 6 to 12. The curriculum includes math, science, engineering, technology, and language. Courses and activities are designed to stimulate curiosity, creativity, and passion for learning; also to build the students’ skills, analytical abilities, and rational thinking. The program was piloted in July 2007 and 2008.
+
+_High school students from Itabo y San Gregorio de Nigua selected for the FIRST MACILE Summer Academy, July 2007._
+
+## MACILE 2007 Summer Academy
 
 The 2007 MACILE Summer Academy lasted for three weeks and included mathematics only. Forty-seven students completed the program. They attended from 8:00 AM to 12:00 PM, Monday through Friday, and a healthy breakfast snack was provided. We celebrated the end of the summer with a barbeque.
 
