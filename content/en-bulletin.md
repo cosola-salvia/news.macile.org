@@ -60,7 +60,7 @@ _Teacher Development. Dominican math teachers participating in a two-week-long m
 
 MACILE pre-college scholarships encourage academic excellence. The program increases opportunities for qualified young people from less advantaged backgrounds, who are interested in math, science, technology, and engineering to attend more challenging schools and pursue their dreams of education.
 
-It's open to students in grades 7th to 12th who have participated in the MACILE Summer Academy. The amount of each scholarship varies depending on the school—each covers tuition (when applicable), uniform, books, supplies, and transportation costs. We hope to be able to offer 40-50 pre-college scholarships per year by 2012. 
+It's open to students in grades 7th to 12th who have participated in the MACILE Summer Academy. The amount of each scholarship varies depending on the school—each covers tuition (when applicable), uniform, books, supplies, and transportation costs_
 
 The program was founded in 2008 with a generous donation from Buffalo Tungstein, Inc.
 
