@@ -57,10 +57,6 @@ _Visit from a Dominican business leader and a government official. They spoke ab
 
 _Teacher Development. Dominican math teachers participating in two week long math training workshop: improving learning of Basic Algebra._
 
-## First Scholars
-
-MACILE granted five merit-based scholarships in 2008 to 9th-grade students from Itabo and San Gregorio de Nigua. School teachers and directors recommended them. The recommendations were green-lighted by community leaders who attested of the students' characters and needs.
-
 ## MACILE Scholarship Program
 
 The program was founded in 2008 with a generous donation from Buffalo Tungstein, Inc.
@@ -68,6 +64,10 @@ The program was founded in 2008 with a generous donation from Buffalo Tungstein,
 MACILE pre-college scholarships encourage academic excellence. The program increases opportunities for qualified young people from less advantaged backgrounds, who are interested in math, science, technology, and engineering to attend more challenging schools and pursue their dreams of education.
 
 The program began in 2008. It's open to students in grade 7th to 12th who have participated in the MACILE Summer Academy. The amount of each scholarship varies depending on the school—each covers tuition (when applicable), uniform, books, supplies, and transportation costs. We hope to be able to offer 40-50 pre-college scholarships per year by 2012. 
+
+### First Scholars
+
+MACILE granted five merit-based scholarships in 2008 to 9th-grade students from Itabo and San Gregorio de Nigua. School teachers and directors recommended them. The recommendations were green-lighted by community leaders who attested of the students' characters and needs.
 
 _Luiz Manuel Alburquerque, 9th grade, Colegio Padre Zegri, Nigua._
 
