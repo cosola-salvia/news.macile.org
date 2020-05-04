@@ -27,9 +27,9 @@ _Itabo elementary school director(far left), 6th history and Spanish teacher (fa
 
 Based on the observations in 2007, we adjusted the 2008 MACILE Summer Academy. It was extended to five weeks and we redesigned the curriculum to include engineering, technology, Spanish literacy, in addition to math. We also added activities—chess, field trips, and guest speakers.
 
-### About the Students
+### About the 2008 Students
 
-Thirty-five students were admitted and completed the program. (MACILE targets talented students in the top 20% of their class.) There was a required orientation and a meeting with the parents .
+MACILE targets talented students in the top 20% of their class. Thirty-five students were admitted and completed the program. There was a required orientation and a meeting with the parents.
 
 ### Schedule and Evaluation
 
