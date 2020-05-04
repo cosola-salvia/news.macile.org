@@ -15,10 +15,13 @@ _High school students from Itabo y San Gregorio de Nigua selected for the FIRST 
 
 The 2007 MACILE Summer Academy lasted for three weeks and included mathematics only. Forty-seven students completed the program. They attended from 8:00 AM to 12:00 PM, Monday through Friday, and a healthy breakfast snack was provided. We celebrated the end of the summer with a barbeque.
 
-_People that made a difference. Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders. They visited the schools, selected students, provided the space, and assisted with logistics_
-
 _Group of 7th-8th grade students from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina that participated in the MACILE Summer Academy 2007. Yahaira Pinales (center right), Dominican teacher that recruited the students (top right)._
 
+### People that made a difference
+
+Local educators helped us out. They visitted the schools and helped select potential students. They provided us the spac and also assisted with logistics.
+
+_Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders._
 
 ## MACILE Summer Academy 2008
 
