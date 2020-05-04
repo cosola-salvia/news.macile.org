@@ -41,9 +41,9 @@ _Spanish teacher, Antonia Asencio (seating, center), and students, proudly showi
 
 ## MACILE Spanish Curriculum
 
-### Los Indios De Quisqueya
-
 An innovative active approach to deepen understanding of the language through the history and folblore of the Dominican Republic. A book written exclusively for MACILE by Dr. Rosario Montelongo de Swanson.
+
+### Los Indios De Quisqueya
 
 Los indios de Quisqueya, the accompaning history book and foundation of the MACILE curriculum, was donated by the Tavares Foundation. The author, Juan Tómas Tavares Kelnes, permited its use.
 
