@@ -33,13 +33,16 @@ p {
   line-height: 1.55;
 }
 
+.logo-btn {
+  position: absolute;
+  margin-left: 1.25em;
+}
+
 .language-menu {
-  width: 100%;
   font-size: 1.15rem;
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   text-align: right;
   background: #1a1451;
-  margin-bottom: 0.625em;
   padding: 0.5em 1em;
 }
 
