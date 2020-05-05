@@ -64,8 +64,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Centralizing the text in the element it is*/
-  text-align: center;
   color: white;
   /*Background styles */
   background-image: url("../images/graduation_20191026MA-original.jpg");
