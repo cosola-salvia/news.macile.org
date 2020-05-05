@@ -75,7 +75,7 @@ p {
 
 .home-hero--title {
   /* Text styles*/
-  font-size: 2.3rem;
+  font-size: 6rem;
   /* Reducing space between title and subtitle */
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -84,72 +84,6 @@ p {
 .home-hero--subtitle {
   /* Text styles*/
   font-size: 0.8rem;
-}
-
-/*Styling the button. we need to give the button a display type of block (<a> elements are inline by default) so that it will behave like other elements. We also need to give it a width - otherwise, it will take up the full width of the screen */
-
-.home-hero-btn {
-  /*positioning and sizing */
-  display: block;
-  width: 120px;
-  /*Padding and margins. margin-left and margin-right center the btn. */
-  padding: 0.4em;
-  margin-left: auto;
-  margin-right: auto;
-  /* Border styles*/
-  border: 3px solid white;
-  border-radius: 4px;
-  /*Text styles */
-  color: white;
-  font-size: 0.85rem;
-}
-
-@media only screen and (min-width: 595px) {
-  .home-hero--title {
-    font-size: 2.4rem;
-  }
-  .home-hero--subtitle {
-    font-size: 0.89rem;
-  }
-  .home-hero-btn {
-    margin-top: 1.25em;
-    width: 150px;
-    padding: 0.70em;
-    border-radius: 5px;
-    font-size: 0.93rem;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .home-hero--title {
-    font-size: 3.75rem;
-  }
-  .home-hero--subtitle {
-    font-size: 1.3rem;
-  }
-  .home-hero-btn {
-    margin-top: 2.188em;
-    width: 180px;
-    padding: 0.85em;
-    border-radius: 8px;
-    font-size: 1.1rem;
-  }
-}
-
-@media only screen and (min-width: 1010px) {
-  .home-hero--title {
-    font-size: 4rem;
-  }
-  .home-hero--subtitle {
-    font-size: 1.45rem;
-  }
-  .home-hero-btn {
-    margin-top: 2.5em;
-    width: 200px;
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 1.14rem;
-  }
 }
 
 .post-quote {
