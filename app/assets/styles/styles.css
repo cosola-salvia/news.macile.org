@@ -60,6 +60,7 @@ p {
 .home-hero {
   width: 100vw;
   height: 100vh;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   /* Uisng flexbox to achieve perfect centering of text on hero image */
   display: flex;
   justify-content: center;
@@ -74,16 +75,19 @@ p {
 }
 
 .home-hero--title {
-  /* Text styles*/
-  font-size: 6rem;
-  /* Reducing space between title and subtitle */
+  font-size: 7rem;
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
 .home-hero--subtitle {
-  /* Text styles*/
-  font-size: 0.8rem;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.home-hero--text {
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 .post-quote {
