@@ -69,7 +69,7 @@ hr.image {
 	margin-bottom: 1.2em;
 }
 
-.buarchive {
+.article-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 1em;
@@ -157,7 +157,7 @@ hr.image {
 
 
 @media (max-width: 680px) {
-	.buarchive {
+	.article-content {
 		display: flex;
 		flex-direction: column;
 	}
