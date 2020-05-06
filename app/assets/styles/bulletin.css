@@ -24,10 +24,10 @@ hr.image {
 	padding-bottom: 50%;
 }
 
-.wrapper {
+/*.wrapper {
 	background-color: #00004d;
 	padding-top: 4em; 
-}
+}*/
 
 .primary-nav--banner {
 	width: 100%;
@@ -46,27 +46,27 @@ hr.image {
 	font-size: 0.8em;
 }
 
-.bupage-hero--title {
+.wrapper {
+	padding: 2em;
+	max-width: 87vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+
+.wrapper__title {
 	color: #000099;
 	font-weight: 300;
 	font-size: 3rem;
 	margin-bottom: 0;
 }
 
-.bupage-hero--subtitle {
+.wrapper__subtitle {
 	color: #808080; 
 	font-weight: 300;
 	font-size: 2rem;
 	margin-top: 0;
 	margin-bottom: 1.2em;
-}
-
-.bupage {
-	padding: 2em;
-	max-width: 87vw;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 4em;
 }
 
 .buarchive {
