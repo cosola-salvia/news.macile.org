@@ -221,6 +221,10 @@ a[href$=".pdf"]:after {
 	color: hsla(240, 100%, 56%, 1);
 }
 
+a[href$=".pdf"]:hover::after {
+	color: white;
+}
+
 .btn-small--yellow {
 	background-color: hsla(60, 79%, 60%, 1);
 	border: 2px solid yellow;
@@ -235,10 +239,6 @@ a[href$=".pdf"]:after {
 	padding: 7px;
 	border-radius: 5px;
 
-}
-
-a[href$=".pdf"]:hover::after {
-	color: white;
 }
 
 @media(max-width: 680px) {
