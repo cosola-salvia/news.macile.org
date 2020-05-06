@@ -111,13 +111,13 @@ hr.image {
 	color: #f2b236;
 }
 
-.buarticle-features--vision {
+.content-section__vision{
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
 }
 
-.buarticle-features--vision-item {
+.content-section__vision_item {
 	margin-bottom: 7px;
 }
 
