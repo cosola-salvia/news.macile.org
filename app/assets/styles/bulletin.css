@@ -90,7 +90,7 @@ hr.image {
 	font-weight: 300;
 }
 
-.buarticle-main--title {
+.content-section__headline {
 	font-size: 300;
 	color: #00004d;
 }
@@ -126,7 +126,7 @@ hr.image {
 	flex-direction: column;
 }
 
-.buarticle-section .buarticle-section--img {
+.buarticle-section .content-section__img {
 	order: -1;
 }
 
