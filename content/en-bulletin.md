@@ -12,21 +12,21 @@ _High school students from Itabo y San Gregorio de Nigua selected for the FIRST 
 - Advance engineering education in K-12
 - Increase learning and understanding.
 
-## MACILE 2007 Summer Academy
+## MACILE Summer Academy 2007
 
 Forty-seven students completed the 2007 MACILE Summer Academy. It lasted for three weeks and only included mathematics. Students attended from 8:00 AM to 12:00 PM, Monday through Friday. We provided a healthy breakfast snack. At the end of the program, we celebrated with a barbeque.
 
-_A group of 7th-8th grade students from the MACILE Summer Academy 2007 at the barbeque. Students came from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Yahaira Pinales (center right), Dominican teacher that recruited the students (top right)._
+_A group of 7th-8th grade students from the MACILE Summer Academy 2007 at the barbeque. Students came from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Yahaira Soriano (center right), Dominican teacher who recruited the students (top right)._
 
 ### People that made a difference
 
-Local educators helped us out by visiting the schools and helping select potential students. They provided MACILE space and also assisted with logistics.
+Local educators and community leaders made the success of MACILE possible. They visited the schools to promote MACILE and encourage students participation. They provided the space for the program and assisted with logistics. 
 
-_Itabo elementary school director(far left), 6th history and Spanish teacher (far right), and community leaders._
+_Itabo elementary school director(far left), 6th grade history and Spanish teacher (far right), and community leaders._
 
 ## MACILE Summer Academy 2008
 
-Based on the observations in 2007, we adjusted the 2008 MACILE Summer Academy. We extended the program to five weeks, and we redesigned the curriculum to include engineering, technology, Spanish literacy, in addition to math. We also added activities—chess, field trips, and guest speakers.
+Based on the observations in 2007, we adjusted the 2008 MACILE Summer Academy. We extended the program to five weeks, and redesigned the curriculum to include engineering, technology, Spanish literacy, in addition to math. We also added activities—chess, field trips, and guest speakers.
 
 ### About the 2008 Program
 
@@ -40,11 +40,11 @@ _Spanish teacher, Antonia Asencio (seating, center), and students, proudly showi
 
 ## MACILE Spanish Curriculum
 
-An innovative active approach to deepen understanding of the language through the history and folklore of the Dominican Republic. Dr. Rosario Montelongo de Swanson wrote a book exclusively for MACILE.
+The Spanish curriculum, featured in 2008, is an innovative active approach to deepen understanding of the language through the history, literature, and folklore of the Dominican Republic and Latin America. It was written exclusevely for MACILE by Dr. Rosario Montelongo de Swanson.
 
 ### Los Indios De Quisqueya
 
-Los Indios de Quisqueya, the accompanying history book and foundation of the MACILE curriculum, was donated by the Tavares Foundation. The author, Juan Tómas Tavares Kelnes, permitted its use.
+Los Indios de Quisqueya, the accompanying history book and foundation of the MACILE Spanish curriculum, was donated by the Tavares Foundation. The author, Juan Tómas Tavares Kelnes, permitted its use.
 
 _Learning language and enjoying the folklore. Students dancing at the bits of the drum and güira, singing the "salve," learning Spanish._
 
