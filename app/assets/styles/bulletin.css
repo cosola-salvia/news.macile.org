@@ -165,14 +165,14 @@ hr.image {
 	color: #663300;
 }
 
-.page-footer__content--research {
+.page-footer__content_research {
 	font-size: 1rem;
 	font-weight: 100;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.page-footer__content--labName {
+.page-footer__content_lab-name {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -180,7 +180,7 @@ hr.image {
 	margin-bottom: 0;
 }
 
-.page-footer__content--education {
+.page-footer__content_education {
 	font-size: 0.85rem;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -188,7 +188,7 @@ hr.image {
 	margin-bottom: 2em;
 }
 
-.page-footer__content--copyright {
+.page-footer__content_copyright {
 	font-size: 0.75rem;
 	font-weight: 200;
 	margin-top: 0.25em;
