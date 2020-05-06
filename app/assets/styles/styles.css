@@ -1,9 +1,6 @@
 
 /* The body has a default margin, which we do not want interfering with our image header, which is why we have set it to 0. The reason that we have set the font-family to sans-serif is so that you’re not stuck with Times New Roman */
 
-* {
-  box-sizing: border-box;
-}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
