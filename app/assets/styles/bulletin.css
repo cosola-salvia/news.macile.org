@@ -167,34 +167,54 @@ hr.image {
 }
 
 .feature-article--wrapper {
-	max-width: 68vw;
+	max-width: 70vw;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	padding: 1.5em;
+	padding: 1em;
 }
 
-/* .article-content {
+.feature-article--section-heading{
+	font-size: 2rem;
+	font-weight: 300;
+
+}
+
+.article-title {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+
+.article-abstract {
+	font-weight: 300;
+	margin-top: 0;
+	line-height: 1.25;
+}
+
+.article-content {
 	display: flex;
-} */
+}
+
+.feature-article__content {
+	flex-direction: column;
+}
 
 .article {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-gap: 1.5em;
+	grid-gap: 1.9em;
 	grid-auto-flow: dense;
 	margin-top: 0;
-	/* align-items: center;
-	justify-items: center; */
 }
 
 .article-banner {
 	background-color: white;
 	font-family: 'Baskerville Old Face'; 
-	font-size: 2em;
+	font-size: 2.3em;
 	color: #00004d;
-	padding: 1em;
+	padding: .8em;
 	align-self: center;
 	justify-self: center; 
 }
@@ -227,14 +247,13 @@ a[href$=".pdf"]:hover::after {
 	color: white;
 }
 
-
 @media(max-width: 680px) {
 	.article {
 		display: flex;
 		flex-direction: column;
 	}
 	
-}
+} 
 
 .page-footer {
 	width: 100vw;
