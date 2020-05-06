@@ -121,12 +121,12 @@ hr.image {
 	margin-bottom: 7px;
 }
 
-.buarticle-section {
+.content-section_order {
 	display: flex;
 	flex-direction: column;
 }
 
-.buarticle-section .content-section__img {
+.content-section_order .content-section__img {
 	order: -1;
 }
 
