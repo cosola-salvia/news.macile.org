@@ -217,7 +217,7 @@ hr.image {
 /* Including PDF ! */
 a[href$=".pdf"]:after { 
 	content: "Read more"; 
-	font-size: 1.10em;
+	font-size: 1.1em;
 	color: hsla(240, 100%, 56%, 1);
 }
 
