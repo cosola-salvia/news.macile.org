@@ -76,7 +76,7 @@ hr.image {
 	grid-auto-flow: dense;
 }
 
-.buarticle {
+.content-section {
 	padding: 1em;
 	background: #fff;
 	box-shadow: 
@@ -130,22 +130,22 @@ hr.image {
 	order: -1;
 }
 
-.buarticle:nth-child(1) {
+.content-section:nth-child(1) {
 	grid-column: 1/-1;
 	background: rgba(253, 235, 86, 0.85);
 }
 
-.buarticle:nth-child(5) {
+.content-section:nth-child(5) {
 	grid-column: -3 / -1;
 	background: #0039e6;
 }
 
-.buarticle:nth-child(11) {
+.content-section:nth-child(11) {
 	grid-column: 1 / -2;
 	background: #0039e6;
 }
 
-.buarticle:nth-child(19) {
+.content-section:nth-child(19) {
 	grid-column: 2 / -1;
 	background: #603cba;
 }
@@ -162,7 +162,7 @@ hr.image {
 		flex-direction: column;
 	}
 
-	.buarticle {
+	.content-section {
 		margin-bottom: 1em;
 	}
 }
