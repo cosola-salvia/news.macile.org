@@ -44,7 +44,7 @@ p {
   }
 }
 
-.language-menu {
+.menu {
   font-size: 1.15rem;
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   text-align: right;
@@ -52,12 +52,12 @@ p {
   padding: 0.5em 1em;
 }
 
-.language-menu--item {
+.menu__item {
   color: #fff;
   padding: 0.475em;
 }
 
-.language-menu--item:hover {
+.menu__item:hover {
   color: #fdfd56;
 }
 
@@ -80,30 +80,30 @@ p {
   background-attachment: fixed;
 }
 
-.home-hero--title {
+.home-hero__title {
   font-size: 2.85rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.home-hero--subtitle {
+.home-hero__subtitle {
   font-size: 1.2rem;
   margin-top: 0;
 }
 
-.home-hero--text {
+.home-hero__text {
   font-size: 0.75rem;
   font-style: italic;
 }
 
 @media only screen and (min-width: 600px) {
-  .home-hero--title {
+  .home-hero__title {
     font-size: 4.5rem;
   }
-  .home-hero--subtitle {
+  .home-hero__subtitle {
     font-size: 2rem;
   }
-  .home-hero--text {
+  .home-hero__text {
     font-size: 1rem;
   }
 }
@@ -112,13 +112,13 @@ p {
   .home-hero {
     height: 100vh;
   }
-  .home-hero--title {
+  .home-hero__title {
     font-size: 6rem;
   }
-  .home-hero--subtitle {
+  .home-hero__subtitle {
     font-size: 3rem;
   }
-  .home-hero--text {
+  .home-hero__text {
     font-size: 1.75rem;
   }
 }
