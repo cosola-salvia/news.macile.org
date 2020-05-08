@@ -44,12 +44,9 @@ p {
   .logo__btn {
     display: block;
     position: absolute;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .logo__btn {
-    margin-left: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1em;
   }
 }
 
@@ -63,8 +60,14 @@ p {
 
 .menu__news-name {
   position: absolute;
-  left: 7em;
+  left: 1em;
   color: #fdfd56;
+}
+
+@media only screen and (min-width: 400px) {
+  .menu__news-name {
+    left: 7em;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -81,7 +84,6 @@ p {
     left: 11em;
   }
 }
-
 
 .menu__item {
   color: #fff;
