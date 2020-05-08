@@ -164,13 +164,15 @@ hr.image {
 
 .featured-article__section-heading{
 	font-size: 2rem;
-	font-weight: 300;
+  font-weight: 300;
+  margin-bottom: 4rem;
 }
 
 .featured-article__title {
 	font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 300;
+  margin-top: 0;
 }
 
 @media(max-width: 680px) {
@@ -189,7 +191,7 @@ hr.image {
 	grid-template-columns: 1fr 2fr;
 	grid-gap: 1.9em;
 	grid-auto-flow: dense;
-	margin-top: 0;
+	max-width: 85vw;
 }
 
 @media(max-width: 680px) {
@@ -205,9 +207,11 @@ hr.image {
 	font-size: 2.3em;
 	color: #00004d;
   font-weight: bold;
-	padding: 2em 1em;
-	align-self: center;
-  justify-self: center; 
+  width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Including PDF ! */
