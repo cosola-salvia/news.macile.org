@@ -168,8 +168,15 @@ hr.image {
 }
 
 .featured-article__title {
-	font-size: 2rem;
-	font-weight: 300;
+	font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+@media(max-width: 680px) {
+  .featured-article__title {
+    font-size: 1.75rem;
+  }
 }
 
 .featured-article__abstract {
