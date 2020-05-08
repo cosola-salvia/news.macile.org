@@ -188,11 +188,8 @@ hr.image {
 	line-height: 1.25;
 }
 
-.featured-article-content {
-	display: flex;
-}
-
 .featured-article__content {
+  display: flex;
 	flex-direction: column;
 }
 
