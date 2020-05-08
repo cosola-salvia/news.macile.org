@@ -181,8 +181,7 @@ hr.image {
 
 .featured-article__abstract {
 	font-weight: 300;
-	margin-top: 0;
-	line-height: 1.25;
+  line-height: 1.4;
 }
 
 .featured-article__item {
