@@ -214,8 +214,8 @@ a[href$=".pdf"]:hover::after {
 	background-color: hsla(60, 79%, 60%, 1);
 	border: 2px solid yellow;
 	padding: 7px;
-	border-radius: 5px;
-
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .btn-small--yellow:hover {
