@@ -41,7 +41,7 @@ hr.image {
 	font-size: 0.8em;
 }
 
-.wrapper {
+.article {
 	padding: 2em;
 	max-width: 87vw;
 	margin-left: auto;
@@ -49,14 +49,14 @@ hr.image {
 	margin-top: 4em;
 }
 
-.wrapper__title {
+.article__title {
 	color: #000099;
 	font-weight: 300;
 	font-size: 3rem;
 	margin-bottom: 0;
 }
 
-.wrapper__subtitle {
+.article__subtitle {
 	color: #808080; 
 	font-weight: 300;
 	font-size: 2rem;
