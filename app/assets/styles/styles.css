@@ -52,6 +52,12 @@ p {
   padding: 0.5em 1em;
 }
 
+.menu__news-name {
+  position: absolute;
+  left: 11em;
+  color: #fdfd56;
+}
+
 .menu__item {
   color: #fff;
   padding: 0.475em;
