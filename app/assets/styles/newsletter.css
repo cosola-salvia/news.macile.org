@@ -7,6 +7,11 @@ p {
   line-height: 1.55;
 }
 
+.newsletter-date {
+  color: #fdfd56;
+  font-size: 0.8rem;
+}
+
 /* Hero positioning and sizing. If you don’t already know, vw and vh stand for the percentage of the viewport width and height. In this case, we are setting our hero to be 100% of the browser width and height. This create the space for the hero section (the whole screen)  */
 
 .home-hero {
