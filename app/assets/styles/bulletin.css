@@ -10,20 +10,6 @@ figure {
 	margin: 0;
 }
 
-hr {
-	height: 6px;
-	border: none;
-	background: rgba(0, 0, 0, 0.1);
-}
-
-hr:last-child {
-	margin-right: 60%;
-}
-
-hr.image {
-	padding-bottom: 50%;
-}
-
 .primary-nav--banner {
 	width: 100%;
 	height: 2.5em;
