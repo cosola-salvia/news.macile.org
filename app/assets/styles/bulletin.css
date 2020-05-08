@@ -149,10 +149,7 @@ hr.image {
 }
 
 .featured-article {
-	max-width: 100vw;
 	margin-top: 3em;
-	margin-left: 0;
-	margin-right: 0;
 	background-color: hsl(240, 100%, 50%);
 	border-bottom: 3px solid hsl(1, 0%, 100%);
 	border-top: 3px solid hsl(1, 0%, 100%);
