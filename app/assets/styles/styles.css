@@ -45,7 +45,7 @@ p {
 }
 
 .menu {
-  font-size: 1.15rem;
+  font-size: 0.95rem;
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   text-align: right;
   background: #1a1451;
@@ -54,11 +54,14 @@ p {
 
 .menu__news-name {
   position: absolute;
-  left: 6em;
+  left: 7em;
   color: #fdfd56;
 }
 
 @media only screen and (min-width: 500px) {
+  .menu {
+    font-size: 1.15rem;
+  }
   .menu__news-name {
     left: 8em;
   }
