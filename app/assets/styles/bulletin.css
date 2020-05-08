@@ -213,17 +213,14 @@ a[href$=".pdf"]:hover::after {
 .btn-small--yellow {
 	background-color: hsla(60, 79%, 60%, 1);
 	border: 2px solid yellow;
-	padding: 7px;
+	padding: 0.5em 0.75em;
   border-radius: 5px;
   display: inline-block;
 }
 
 .btn-small--yellow:hover {
 	background-color: hsla(210, 100%, 56%, 1);
-	border: 2px solid hsla(210, 100%, 80%, 1);
-	padding: 7px;
-	border-radius: 5px;
-
+	border-color: hsla(210, 100%, 80%, 1);
 }
 
 @media(max-width: 680px) {
