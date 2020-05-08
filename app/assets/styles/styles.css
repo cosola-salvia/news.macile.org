@@ -33,13 +33,13 @@ p {
   line-height: 1.55;
 }
 
-.logo-btn {
+.logo__btn {
   position: absolute;
   margin-left: 1em;
 }
 
 @media only screen and (min-width: 600px) {
-  .logo-btn {
+  .logo__btn {
     margin-left: 1.25em;
   }
 }
