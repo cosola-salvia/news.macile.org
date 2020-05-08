@@ -54,9 +54,22 @@ p {
 
 .menu__news-name {
   position: absolute;
-  left: 11em;
+  left: 6em;
   color: #fdfd56;
 }
+
+@media only screen and (min-width: 500px) {
+  .menu__news-name {
+    left: 8em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .menu__news-name {
+    left: 11em;
+  }
+}
+
 
 .menu__item {
   color: #fff;
