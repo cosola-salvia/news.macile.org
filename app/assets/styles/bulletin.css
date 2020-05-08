@@ -188,6 +188,13 @@ hr.image {
 	margin-top: 0;
 }
 
+@media(max-width: 680px) {
+  .featured-article__item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .featured-article__image {
 	background-color: white;
 	font-family: 'Baskerville Old Face'; 
@@ -222,14 +229,6 @@ a[href$=".pdf"]:hover::after {
 	background-color: hsla(210, 100%, 56%, 1);
 	border-color: hsla(210, 100%, 80%, 1);
 }
-
-@media(max-width: 680px) {
-	.featured-article__item {
-		display: flex;
-		flex-direction: column;
-	}
-	
-} 
 
 .page-footer {
 	width: 100vw;
