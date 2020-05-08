@@ -119,7 +119,7 @@ p {
   margin-bottom: 0;
 }
 
-.home-hero__subtitle {
+.home-hero__date {
   font-size: 1.2rem;
   margin-top: 0;
 }
@@ -133,7 +133,7 @@ p {
   .home-hero__title {
     font-size: 4.5rem;
   }
-  .home-hero__subtitle {
+  .home-hero__date {
     font-size: 2rem;
   }
   .home-hero__text {
@@ -148,7 +148,7 @@ p {
   .home-hero__title {
     font-size: 6rem;
   }
-  .home-hero__subtitle {
+  .home-hero__date {
     font-size: 3rem;
   }
   .home-hero__text {
