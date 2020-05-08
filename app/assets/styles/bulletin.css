@@ -188,11 +188,6 @@ hr.image {
 	line-height: 1.25;
 }
 
-.featured-article__content {
-  display: flex;
-	flex-direction: column;
-}
-
 .featured-article__item {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
