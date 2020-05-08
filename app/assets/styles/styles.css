@@ -12,8 +12,6 @@
   box-sizing: border-box;
 }
 
-/* The body has a default margin, which we do not want interfering with our image header, which is why we have set it to 0. The reason that we have set the font-family to sans-serif is so that you’re not stuck with Times New Roman */
-
 body {
   margin: 0;
   overflow-x: hidden;
@@ -21,7 +19,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -114,18 +112,6 @@ a {
 		padding: 0 1.35em;
 		font-size: 1.3rem;
 	}
-}
-
-/* Hero positioning and sizing. If you don’t already know, vw and vh stand for the percentage of the viewport width and height. In this case, we are setting our hero to be 100% of the browser width and height. This create the space for the hero section (the whole screen)  */
-
-.home-hero {
-  width: 100vw;
-  height: 100vh;
-  /* Uisng flexbox to achieve perfect centering of text on hero image */
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  padding-left: 0;
 }
 
 .logo-description--text {
