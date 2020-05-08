@@ -42,8 +42,8 @@ p {
   .logo__btn {
     display: block;
     position: absolute;
+    top: 0;
     margin-top: 0;
-    margin-bottom: 0;
     margin-left: 1em;
   }
 }
