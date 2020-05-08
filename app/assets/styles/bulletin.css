@@ -110,12 +110,12 @@ hr.image {
 	margin-bottom: 7px;
 }
 
-.content-section_order {
+.content-section_image-first {
 	display: flex;
 	flex-direction: column;
 }
 
-.content-section_order .content-section__img {
+.content-section_image-first .content-section__img {
 	order: -1;
 }
 
