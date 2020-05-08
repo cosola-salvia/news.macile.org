@@ -50,7 +50,7 @@ p {
 
 .menu {
   font-size: 0.95rem;
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
   text-align: right;
   background: #1a1451;
   padding: 0.5em 1em;
@@ -60,6 +60,7 @@ p {
   position: absolute;
   left: 1em;
   color: #fdfd56;
+  letter-spacing: 0.19em;
 }
 
 @media only screen and (min-width: 400px) {
