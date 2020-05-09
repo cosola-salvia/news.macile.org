@@ -5,16 +5,24 @@ MACILE targets talented students in the top 20% of their class.  We piloted the 
 
 _High school students from Itabo y San Gregorio de Nigua selected for the FIRST MACILE Summer Academy, July 2007._
 
-## Objectives
+## Our objectives
 
+MACILE has four core objectives:
 - Nurture the creativity and curiosity of talented young people.
 - Increase access to challenging and stimulating learning environments.
 - Advance engineering education in K-12
-- Increase learning and understanding.
+- Intill passion for learning and understanding.
 
-## MACILE Summer Academy 2007
+## About the students
 
-Forty-seven students completed the 2007 MACILE Summer Academy. It lasted for three weeks and only included mathematics. Students attended from 8:00 AM to 12:00 PM, Monday through Friday. We provided a healthy breakfast snack. At the end of the program, we celebrated with a barbeque.
+In 2007, forty-seven students in grade 7th to 11th completed the Summer Academy. The students ranged in age from 12 to 18; 43% were female and 56% male. They came from five public schools. 
+
+In 2008, we admitted thirty-five students to the MACILE Summer Academy, and all successfully completed the program. The students were in grade 6th to 9th; 44% were female and 66% male. They came from five public and private schools. 
+
+
+## MACILE Summer Academy 2007  
+
+The MACILE Summer Academy lasted for three weeks in 2007, and only included mathematics. Students attended from 8:00 AM to 12:00 PM, Monday through Friday. We provided a healthy breakfast snack. At the end of the program, we celebrated with a barbeque. 
 
 _A group of 7th-8th grade students from the MACILE Summer Academy 2007 at the barbeque. Students came from schools in Itabo, Nigua, El 18, Yogo Yogo, and Haina. Yahaira Soriano (center right), Dominican teacher who recruited the students (top right)._
 
@@ -26,13 +34,13 @@ _Itabo elementary school director(far left), 6th grade history and Spanish teach
 
 ## MACILE Summer Academy 2008
 
-Based on the observations in 2007, we adjusted the 2008 MACILE Summer Academy. We extended the program to five weeks, and redesigned the curriculum to include engineering, technology, Spanish literacy, in addition to math. We also added activities—chess, field trips, and guest speakers.
+Based on the observations in 2007, we adjusted the 2008 MACILE Summer Academy. We extended the program to five weeks, and redesigned the curriculum to include engineering, technology, Spanish literacy, in addition to math. We also added activities—chess, field trips, and guest speakers. Students attended from 8:00 AM to 3:30 PM and were provided with a healthy lunch in addition to breakfast.
 
-### About the 2008 Program
+### Students selection and evaluation
 
-We admitted thirty-five students. We added a required orientation and a meeting with the parents before initiating the program.
+Conforming to the MACILE objectives, in 2008 we instituted more riguruous students selection and evaluation processes, aligning more closely with the goal of selecting students from the top 20% of their class who express interest in learning math and science. That year, thirty-five students from fifty-nine recommended were admitted to the MACILE Summer Academy. 
 
-We extended the school day from 12-4 PM and provided students with a healthy lunch in addition to breakfast. We gauged the students' mathematical and linguistic progress through a math test, and an evaluation questionnaire completed at the end of the program.
+We added a required orientation and a meeting with the parents before initiating the program. At the end of the program, we employed particularly design evaluation instruments to gauge the students' mathematical and linguistic progress. We also evaluated the students' perception of learning and overal satisfaction with the program. 
 
 _MACILE Summer Academy 2007-2008. Conducted at the Itabo Elementary School in Itabo, San Critóbal._
 
@@ -40,11 +48,12 @@ _Spanish teacher, Antonia Asencio (seating, center), and students, proudly showi
 
 ## MACILE Spanish Curriculum
 
-The Spanish curriculum, featured in 2008, is an innovative active approach to deepen understanding of the language through the history, literature, and folklore of the Dominican Republic and Latin America. It was written exclusevely for MACILE by Dr. Rosario Montelongo de Swanson.
+The objective of this unique program is twofold: first, it seeks to improve the students’ command of the language, its grammatical structures and orthography; second, it seeks to instruct the student in Dominican culture, history, and literature. To fulfill this double objective, the curriculum includes a selection of Dominican texts that deal with the main roots of Dominican culture: Aboriginal, African and Spanish. The pilot program starts with the deepest root, the Taíno, based mainly on the text Los indios de Quisqueya by Juan Tomás Tavares K., and supplemented by additional material.
 
-### Los Indios De Quisqueya
+### About the author
 
-Los Indios de Quisqueya, the accompanying history book and foundation of the MACILE Spanish curriculum, was donated by the Tavares Foundation. The author, Juan Tómas Tavares Kelnes, permitted its use.
+The Spanish language program has been exclusively developed for MACILE by Dr. Rosario Montelongo de Swanson (link to college page), Professor of Language and Literature at Marlboro College.  “With this program I carry out my desire to contribute to the construction of a better future through youth education and returning to the community a little of how much I have been given as a woman and teacher.”
+
 
 _Learning language and enjoying the folklore. Students dancing at the bits of the drum and güira, singing the "salve," learning Spanish._
 
@@ -52,15 +61,15 @@ _Students built toothpick bridges and learned about solar energy. This team is t
 
 _MACILE strives to expand the young people's horizons, nourishing their innate curiosity and wonderful imagination rather than discouraging them, as Einstein admonished_
 
-_A visit from a Dominican business leader and a government official. They spoke about the job market. Students learned about opportunities and requirements for government scholarship programs._
+_A visit from a Dominican business leader and a government official. They spoke about the job market and the goverment scholarship programs. Students learned about available opportunities and requirements._
 
-_Teacher Development. Dominican math teachers participating in a two-week-long math training workshop: Improving the Learning of Basic Algebra._
+_Teacher Development. Dominican teachers participating in a two-week-long math training workshop: Improving the Learning of Basic Algebra._
 
 ## MACILE Scholarship Program
 
-MACILE pre-college scholarships encourage academic excellence. The program increases opportunities for qualified young people from less advantaged backgrounds, who are interested in math, science, technology, and engineering to attend more challenging schools and pursue their dreams of education.
+The MACILE scholarship program seeks to improve academic achievement among talented young people from the Itabo - San Gregorio de Nigua región in the Dominican Republic, who are passionate about learning and have indicated interest in math and science.  The program increases their opportunities to pursue their preparatory education at top schools in the province.  We hope to encourage students from less-advantaged backgrounds to pursue studies and careers in math, science, technology, and engineering. 
 
-It's open to students in grades 7th to 12th who have participated in the MACILE Summer Academy. The amount of each scholarship varies depending on the school—each covers tuition (when applicable), uniform, books, supplies, and transportation costs_
+The scholarship program is based on academic merit and is open to students in grades 7th to 12th who have participated in the MACILE Summer Academy._
 
 The program was founded in 2008 with a generous donation from Buffalo Tungstein, Inc.
 
