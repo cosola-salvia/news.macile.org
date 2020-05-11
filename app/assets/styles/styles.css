@@ -49,23 +49,22 @@ p {
 }
 
 .menu {
+  display: flex;
+  justify-content: space-between;
   font-size: 0.95rem;
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-  text-align: right;
   background: #1a1451;
   padding: 0.5em 1em;
 }
 
 .menu__news-name {
-  position: absolute;
-  left: 1em;
   color: #fdfd56;
   letter-spacing: 0.19em;
 }
 
 @media only screen and (min-width: 400px) {
   .menu__news-name {
-    left: 7em;
+    margin-left: 7em;
   }
 }
 
@@ -73,14 +72,11 @@ p {
   .menu {
     font-size: 1.15rem;
   }
-  .menu__news-name {
-    left: 8em;
-  }
 }
 
 @media only screen and (min-width: 800px) {
   .menu__news-name {
-    left: 11em;
+    margin-left: 10em;
   }
 }
 
