@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'TrajanPro-Bold';
+  src: url('/fonts/TrajanPro-Bold.woff') format('woff'), url('/fonts/TrajanPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('/fonts/TrajanPro-Regular.woff') format('woff'), url('/fonts/TrajanPro-Regular.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
