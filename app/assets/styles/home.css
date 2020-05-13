@@ -26,3 +26,19 @@ img {
 a {
   text-decoration: none;
 }
+
+.language-menu {
+  font-size: 1.15rem;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+  text-align: right;
+  padding: 0.5em 1em;
+}
+
+.language-menu__item {
+  color: #fff;
+  padding: 0.475em;
+}
+
+.language-menu__item:hover {
+  color: #fdfd56;
+}
