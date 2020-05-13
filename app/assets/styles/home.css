@@ -27,6 +27,13 @@ a {
   text-decoration: none;
 }
 
+.header {
+  height: 65vh;
+  text-align: center;
+  color: #fff;
+  background-color: #15154e;
+}
+
 .language-menu {
   font-size: 1.15rem;
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
@@ -41,4 +48,21 @@ a {
 
 .language-menu__item:hover {
   color: #fdfd56;
+}
+
+.logo-brand {
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.logo-description {
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.logo-description--text {
+  display: inline-block;
+  list-style: none;
+  padding: 0 0.35em;
 }
