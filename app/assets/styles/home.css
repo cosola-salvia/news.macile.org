@@ -28,17 +28,34 @@ a {
 }
 
 .header {
-  height: 70vh;
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   text-align: center;
   color: #fff;
   background-color: #15154e;
 }
 
+@media only screen and (min-width: 500px) {
+  .header {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .header {
+    height: 470px;
+  }
+}
+
 .language-menu {
-  font-size: 1.15rem;
+  font-size: 0.7rem;
   text-align: right;
   padding: 0.5em 1em;
+}
+
+@media only screen and (min-width: 500px) {
+  .language-menu {
+    font-size: 1.15rem;
+  }
 }
 
 .language-menu__item {
@@ -52,14 +69,27 @@ a {
 
 .logo__text_brand {
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-  font-size: 3rem;
+  font-size: 1.3rem;
   letter-spacing: 0.25em;
   margin: 0;
 }
 
+@media only screen and (min-width: 500px) {
+  .logo__text_brand {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .logo__text_brand {
+    font-size: 3rem;
+  }
+}
+
 .logo-description {
-  font-size: 1.5rem;
+  font-size: 0.60rem;
   text-transform: uppercase;
+  padding-left: 0;
 }
 
 .logo-description__text {
@@ -68,16 +98,45 @@ a {
   padding: 0 0.35em;
 }
 
+@media only screen and (min-width: 500px) {
+  .logo-description {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .logo-description {
+    font-size: 1.5rem;
+  }
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
 }
 
 .about {
-  width: 450px;
   text-align: center;
-  font-size: 1.2rem;
-  line-height: 30px;
-  padding: 1.5em;
+  font-size: 0.85rem;
+  line-height: 20px;
+  padding: 0.6em;
   background-color: #6d2cb0;
+}
+
+@media only screen and (min-width: 500px) {
+  .about {
+    width: 400px;
+    font-size: 1.15rem;
+    line-height: 25px;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .about {
+    width: 450px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding: 1.5em;
+  }
 }
