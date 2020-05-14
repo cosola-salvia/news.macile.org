@@ -44,7 +44,7 @@ p {
     position: absolute;
     top: 0;
     margin-top: 0;
-    margin-left: 1em;
+    margin-left: 1.5em;
   }
 }
 
@@ -54,7 +54,7 @@ p {
   font-size: 0.95rem;
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
   background: #1a1451;
-  padding: 0.5em 1em;
+  padding: 0.5em 1.5em;
 }
 
 .menu__news-name {
