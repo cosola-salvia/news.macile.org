@@ -50,7 +50,7 @@ a {
   color: #fdfd56;
 }
 
-.logo-brand {
+.logo__text_brand {
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
   font-size: 3rem;
   letter-spacing: 0.25em;
@@ -62,7 +62,7 @@ a {
   text-transform: uppercase;
 }
 
-.logo-description--text {
+.logo-description__text {
   display: inline-block;
   list-style: none;
   padding: 0 0.35em;
