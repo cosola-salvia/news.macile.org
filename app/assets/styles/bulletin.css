@@ -1,4 +1,4 @@
-html, 
+html,
 body {
 	color: #808080;
 	padding: 0;
@@ -10,44 +10,19 @@ figure {
 	margin: 0;
 }
 
-.primary-nav--banner {
-	width: 100%;
-	height: 2.5em;
-	background: rgb(167, 169, 172);
-	color: #fff;
-	margin-right: 1em;
-	display: flex;
-	justify-content: space-around;
-	border-bottom: 4px solid #ff9900;
-}
-
-.primary-nav--banner-vol {
-	color: #fff;
-	font-weight: 300;
-	font-size: 0.8em;
-}
-
 .article {
-	padding: 2em;
-	max-width: 87vw;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 4em;
+  padding: 2em;
+  max-width: 87vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
 }
 
 .article__title {
-	color: #000099;
-	font-weight: 300;
-	font-size: 3rem;
-	margin-bottom: 0;
-}
-
-.article__subtitle {
-	color: #808080; 
-	font-weight: 300;
-	font-size: 2rem;
-	margin-top: 0;
-	margin-bottom: 1.2em;
+  color: #000099;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 0;
 }
 
 .article-content {
@@ -60,7 +35,7 @@ figure {
 .content-section {
 	padding: 1em;
 	background: #fff;
-	box-shadow: 
+	box-shadow:
 		0 5px 10px rgba(0, 0, 0, 0.1),
 		0 20px 20px rgba(0, 0, 0, 0.05);
 }
@@ -191,7 +166,7 @@ figure {
 
 .featured-article__image {
 	background-color: white;
-	font-family: 'Baskerville Old Face'; 
+	font-family: 'Baskerville Old Face';
 	font-size: 2.3em;
 	color: #00004d;
   font-weight: bold;
@@ -203,8 +178,8 @@ figure {
 }
 
 /* Including PDF ! */
-a[href$=".pdf"]:after { 
-	content: "Read more"; 
+a[href$=".pdf"]:after {
+	content: "Read more";
 	font-size: 1.1em;
 	color: hsla(240, 100%, 56%, 1);
 }
