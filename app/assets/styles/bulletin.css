@@ -21,9 +21,22 @@ figure {
 .article__title {
   color: #000099;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin-top: 0;
 }
+
+@media only screen and (min-width: 600px) {
+  .article__title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .article__title {
+    font-size: 3rem;
+  }
+}
+
 
 .article-content {
 	display: grid;
@@ -42,8 +55,20 @@ figure {
 
 .content-section__hero_large {
 	color: #00004d;
-	font-size: 2em;
+	font-size: 0.85em;
 	font-weight: 300;
+}
+
+@media only screen and (min-width: 600px) {
+  .content-section__hero_large {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .content-section__hero_large {
+    font-size: 2em;
+  }
 }
 
 .content-section__headline {
