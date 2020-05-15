@@ -85,6 +85,51 @@ a {
   color: #fdfd56;
 }
 
+.home-hero {
+  height: 250px;
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.home-hero__title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-hero__text {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
+  .home-hero {
+    height: 350px;
+  }
+  .home-hero__title {
+    font-size: 2.2rem;
+  }
+  .home-hero__text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .home-hero {
+    height: 450px;
+  }
+  .home-hero__title {
+    font-size: 3rem;
+  }
+  .home-hero__text {
+    font-size: 1.8rem;
+  }
+}
+
 /*Newsletter*/
 
 .language-menu {
