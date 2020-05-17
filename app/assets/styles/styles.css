@@ -170,3 +170,27 @@ a {
     font-size: 1.25rem;
   }
 }
+
+.teaser {
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+}
+
+.teaser-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.teaser-item__name {
+  position: absolute;
+  color: #fff;
+  padding: 1.2em;
+}
+
+.teaser-item__name_pink {
+  right: 0;
+  background-color: #d24b4b;
+}
+
+.teaser-item__name_blue {
+   background-color: #096a97;
+}
