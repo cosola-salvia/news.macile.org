@@ -205,6 +205,10 @@ a {
   margin: 2em;
 }
 
+.teaser-item__img_image-first {
+  order: -1;
+}
+
 .teaser-item__date {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
