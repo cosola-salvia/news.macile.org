@@ -177,7 +177,7 @@ a {
 
 .teaser-item {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: auto auto;
   margin: 2em;
 }
 
@@ -199,6 +199,7 @@ a {
 
 .teaser-item__content {
   margin: 2em;
+  align-self: center;
 }
 
 .teaser-item__img {
@@ -228,7 +229,7 @@ a {
 }
 
 .teaser-item__text {
-  width: 400px;
+  width: 500px;
   font-size: 1.2rem;
   line-height: 25px;
   margin-bottom: 2.5em;
@@ -250,4 +251,3 @@ a {
 .teaser-item__botton_blue {
   background-color: #096a97;
 }
-
