@@ -223,4 +223,19 @@ a {
   margin-top: 0.3em;
 }
 
+.teaser-item__botton {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.2em;
+  border-radius: 0.5em;
+}
 
+.teaser-item__botton_pink {
+  background-color: #d24b4b;
+}
+
+.teaser-item__botton_blue {
+  background-color: #096a97;
+}
