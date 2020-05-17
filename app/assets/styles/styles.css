@@ -239,3 +239,9 @@ a {
 .teaser-item__botton_blue {
   background-color: #096a97;
 }
+
+.teaser-item__text {
+  width: 400px;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
