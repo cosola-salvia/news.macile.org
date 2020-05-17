@@ -178,6 +178,7 @@ a {
 .teaser-item {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  margin: 2em;
 }
 
 .teaser-item__name {
