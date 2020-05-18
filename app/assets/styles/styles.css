@@ -184,3 +184,26 @@ a {
     font-size: 1.25rem;
   }
 }
+
+.donate {
+  height: 300px;
+  font-size: 1.5rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  background-image: linear-gradient(rgba(21, 21, 78, 0.5), rgba(21, 21, 78, 0.6)), url("/home/salvia/news.macile.org/app/assets/images/salvia-team.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 5px solid #096a97;
+  color: #fff;
+  text-align: center;
+}
+
+.donate__btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #6fcf97;
+  padding: 15px 40px;
+}
