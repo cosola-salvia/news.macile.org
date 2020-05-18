@@ -182,7 +182,7 @@ figure {
 	.featured-article__abstract {
 	  font-size: 1rem;
 	}
-  }
+}
 
 .featured-article__item {
 	display: grid;
@@ -193,10 +193,10 @@ figure {
 }
 
 @media(max-width: 680px) {
-  .featured-article__item {
-    display: flex;
-    flex-direction: column;
-  }
+	.featured-article__item {
+	   display: flex;
+	   flex-direction: column;
+	}
 }
 
 .featured-article__image {
