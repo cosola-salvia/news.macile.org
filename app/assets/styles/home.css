@@ -110,15 +110,12 @@ a {
   }
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .about {
   text-align: center;
   font-size: 0.85rem;
   line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0.6em;
   background-color: #6d2cb0;
 }
