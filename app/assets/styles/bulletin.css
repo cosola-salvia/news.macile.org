@@ -213,9 +213,14 @@ a[href$=".pdf"]:hover::after {
 	color: white;
 }
 
+.inner-link--yellow {
+	color: hsla(60, 98%, 66%, 1);
+	background-color: transparent;
+}
+
 .btn-small--yellow {
-	background-color: hsla(60, 79%, 60%, 1);
-	border: 2px solid yellow;
+	background-color: hsla(60, 98%, 66%, 1);
+	border: 2px solid hsl(60, 100%, 50%);
 	padding: 0.5em 0.75em;
   border-radius: 5px;
   display: inline-block;
@@ -250,7 +255,7 @@ a[href$=".pdf"]:hover::after {
 }
 .section-content__intro-abs {
 	padding: 1em 2em;
-	font-size: .87rem;
+	font-size: .9rem;
 	font-weight: 300;
 	line-height: 1.4;
 	align-self: center;
@@ -275,6 +280,11 @@ a[href$=".pdf"]:hover::after {
 	padding: 1rem 0;
 	line-height: 1.4;
 
+}
+
+.featured-acknowledge__content {
+	padding: 1rem 2.25rem;
+	line-height: 1.4;
 }
 
 @media(max-width: 680px) {
