@@ -175,6 +175,11 @@ a {
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
 }
 
+.teaser-item__main-title {
+  text-align: center;
+  font-weight: 500;
+}
+
 .teaser-item {
   display: grid;
   grid-template-columns: auto auto;
