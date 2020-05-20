@@ -173,6 +173,19 @@ a {
 
 .teaser {
   font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+  font-size: 0.70rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .teaser {
+   font-size: 0.85rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .teaser {
+   font-size: 1rem;
+  }
 }
 
 .teaser-item__main-title {
@@ -180,16 +193,18 @@ a {
   font-weight: 500;
 }
 
-.teaser-item {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 2em;
+@media only screen and (min-width: 700px) {
+  .teaser-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2em;
+  }
 }
 
 .teaser-item__name {
-  position: absolute;
+  font-size: 0.85rem;
   color: #fff;
-  padding: 1.2em;
+  padding: 0.9em;
 }
 
 .teaser-item__name_pink {
@@ -202,6 +217,17 @@ a {
   background-color: #096a97;
 }
 
+@media only screen and (min-width: 700px) {
+  .teaser-item__name {
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .teaser-item__name {
+    padding: 1.2em;
+  }
+}
+
 .teaser-item__content {
   margin: 2em;
   align-self: center;
@@ -211,13 +237,14 @@ a {
   margin: 2em;
 }
 
-.teaser-item__img_image-first {
-  order: -1;
+@media only screen and (min-width: 700px) {
+  .teaser-item__img_image-first {
+    order: -1;
+  }
 }
 
 .teaser-item__date {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
 }
 
 .teaser-item__date_pink {
@@ -233,19 +260,31 @@ a {
   margin-top: 0.3em;
 }
 
+@media only screen and (min-width: 900px) {
+  .teaser-item__tittle {
+    margin-top: 0.3em;
+  }
+}
+
 .teaser-item__text {
-  width: 500px;
-  font-size: 1.2rem;
-  line-height: 25px;
-  margin-bottom: 2.5em;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 900px) {
+  .teaser-item__text {
+    font-size: 1.2rem;
+    margin-bottom: 2.5em;
+  }
 }
 
 .teaser-item__botton {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   color: #fff;
   text-transform: uppercase;
-  padding: 1.2em;
+  padding: 1em;
   border-radius: 0.5em;
 }
 
@@ -255,4 +294,13 @@ a {
 
 .teaser-item__botton_blue {
   background-color: #096a97;
+}
+
+@media only screen and (min-width: 900px) {
+  .teaser-item__botton {
+    font-size: 0.8rem;
+    padding: 1.2em;
+    border-radius: 0.5em;
+  }
+
 }
