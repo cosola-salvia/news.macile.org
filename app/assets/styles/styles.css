@@ -18,6 +18,12 @@ body {
   color: #444;
 }
 
+nav {
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  background: #1a1451;
+  padding: 0.5em 1.5em;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -43,8 +49,6 @@ p {
     display: block;
     position: absolute;
     top: 0;
-    margin-top: 0;
-    margin-left: 1.5em;
   }
 }
 
@@ -52,9 +56,6 @@ p {
   display: flex;
   justify-content: space-between;
   font-size: 0.95rem;
-  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-  background: #1a1451;
-  padding: 0.5em 1.5em;
 }
 
 .menu__news-name {
@@ -63,7 +64,7 @@ p {
 }
 
 @media only screen and (min-width: 400px) {
-  .menu__news-name {
+  .menu {
     margin-left: 7em;
   }
 }
@@ -75,7 +76,7 @@ p {
 }
 
 @media only screen and (min-width: 800px) {
-  .menu__news-name {
+  .menu {
     margin-left: 10em;
   }
 }
