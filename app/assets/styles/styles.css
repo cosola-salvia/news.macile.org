@@ -92,7 +92,7 @@ p {
 
 .home-hero {
   width: 100vw;
-  height: 70vh;
+  height: 40vh;
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
   display: flex;
   justify-content: center;
@@ -103,7 +103,6 @@ p {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .home-hero__title {
@@ -123,6 +122,9 @@ p {
 }
 
 @media only screen and (min-width: 600px) {
+  .home-hero {
+    height: 70vh;
+  }
   .home-hero__title {
     font-size: 4.5rem;
   }
@@ -137,6 +139,7 @@ p {
 @media only screen and (min-width: 900px) {
   .home-hero {
     height: 100vh;
+    background-attachment: fixed;
   }
   .home-hero__title {
     font-size: 6rem;
