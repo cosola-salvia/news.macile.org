@@ -231,14 +231,17 @@ a[href$=".pdf"]:hover::after {
 	border-color: hsla(210, 100%, 80%, 1);
 }
 
-.mentions-featured {
+.mention {
 	margin-top: 2em;
+}
+
+.mention-container__wrapper {
 	max-width: 78vw;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.mentions-featured__section {
+.mention-container {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-auto-rows: minmax(50px, auto);
@@ -247,13 +250,20 @@ a[href$=".pdf"]:hover::after {
 	justify-content: center;
 }
 
-.section-content__intro {
+.mention-heading {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	color: #1a1451;
 	grid-gap: 2em;
 }
-.section-content__intro-abs {
+
+.mention-heading__title{
+	font-size: 2rem;
+  	font-weight: 300;
+  	margin-bottom: 3rem;
+}
+
+.mention-heading__description {
 	padding: 1em 2em;
 	font-size: .9rem;
 	font-weight: 300;
@@ -262,13 +272,13 @@ a[href$=".pdf"]:hover::after {
 	border-left: 1px solid #603cba;
 }
 
-.mentions-featured--subtitle {
+.mention-section__subtitle {
 	color: #57595c;
 	font-size: 1.5em;
 	margin-bottom: 0;
 }
 
-.mentions-featured__content {
+.mention-content {
 	background: hsla(246, 49%, 47%, 1);
 	color: #fff;
 	border-radius: 5px;
@@ -276,23 +286,23 @@ a[href$=".pdf"]:hover::after {
 				0 20px 20px hsla(0, 0%, 0%, 0.05);
 }
 
-.featured-comment__content {
+.mention-content__item {
 	padding: 1rem 0;
 	line-height: 1.4;
 
 }
 
-.featured-acknowledge__content {
+.mention-content__item_xp {
 	padding: 1rem 2.25rem;
 	line-height: 1.4;
 }
 
 @media(max-width: 680px) {
-	.section-content__intro {
+	.mention-heading {
 	  display: flex;
 	  flex-direction: column;
 	}
-	.section-content__intro-abs {
+	.mention-heading__description {
 	 border-left: none;	
 	 margin-top: -2rem;
 	 padding: 0;
