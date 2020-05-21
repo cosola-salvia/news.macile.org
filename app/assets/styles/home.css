@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'TrajanPro-Bold';
+  src: url('/fonts/TrajanPro-Bold.woff') format('woff'), url('/fonts/TrajanPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TrajanPro-Regular';
+  src: url('/fonts/TrajanPro-Regular.woff') format('woff'), url('/fonts/TrajanPro-Regular.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
+  text-align: center;
+  color: #fff;
+  background-color: #15154e;
+}
+
+@media only screen and (min-width: 500px) {
+  .header {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .header {
+    height: 470px;
+  }
+}
+
+.language-menu {
+  font-size: 0.7rem;
+  text-align: right;
+  padding: 0.5em 1em;
+}
+
+@media only screen and (min-width: 500px) {
+  .language-menu {
+    font-size: 1.15rem;
+  }
+}
+
+.language-menu__item {
+  color: #fff;
+  padding: 0.475em;
+}
+
+.language-menu__item:hover {
+  color: #fdfd56;
+}
+
+.logo__text_brand {
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .logo__text_brand {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .logo__text_brand {
+    font-size: 3rem;
+  }
+}
+
+.logo-description {
+  font-size: 0.60rem;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+
+.logo-description__text {
+  display: inline-block;
+  letter-spacing: 0.02em;
+  list-style: none;
+  margin: 0 0.35em;
+}
+
+@media only screen and (min-width: 500px) {
+  .logo-description {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .logo-description {
+    font-size: 1.5rem;
+  }
+}
+
+.about {
+  max-width: 30em;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 3em;
+  background-color: #6d2cb0;
+}
+
+@media only screen and (min-width: 500px) {
+  .about {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .about {
+    font-size: 1.5rem;
+    padding: 1.5em;
+  }
+}

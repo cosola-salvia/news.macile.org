@@ -25,7 +25,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:domain" content="macile.org">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="/app/assets/styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="/app/assets/styles/home.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -59,35 +59,36 @@
 </head>
 
 <body>
-  <nav>
-    <div class="language-menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-      <span class="newsletter-date">July-October, 2019</span>
-      <a class="language-menu--item" href="/" itemprop='url'>
-        <span itemprop="name">English</span>
-      </a>
-      <a class="language-menu--item" href="/es/" itemprop='url'>
-        <span itemprop="name">Español</span>
-      </a>
-    </div>
-    <div class="primary-nav" itemscope itemtype="http://schema.org/Organization">
-      <a class="logo-btn" href="/" itemprop="url">
-        <img srcset="/images/logo-macile-167x180.jpg 167w,
-				          /images/logo-macile-116x125.jpg 116w,
-				          /images/logo-macile-84x90.jpg 84w"
-          sizes="(min-width: 800px) 167px, (min-width: 500px) 116px, (min-width: 150px) 84px" alt="logo-macile">
-      </a>
-      <div class="logo-text">
-        <h1 class="logo-brand" itemprop="brand">MACILE</h1>
-        <ul class="logo-description" itemprop="slogan">
-          <li class="logo-description--text">Mathematics</li>
-          <li class="logo-description--text">Science</li>
-          <li class="logo-description--text">Engineering</li>
-          <li class="logo-description--text">Language</li>
-        </ul>
+  <header class="header">
+    <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+      <div class="language-menu">
+        <a class="language-menu__item" href="/" itemprop='url'>
+          <span itemprop="name">EN</span>
+        </a>
+        <a class="language-menu__item" href="/es/" itemprop='url'>
+          <span itemprop="name">ES</span>
+        </a>
       </div>
+      <a class="logo__btn" href="/" itemprop="url">
+        <img srcset="/images/logo-macile-167x180.png 167w,
+                  /images/logo-macile-116x125.png 116w,
+                  /images/logo-macile-84x90.png 84w"
+              sizes="(min-width: 800px) 167px, (min-width: 500px) 116px, (min-width: 150px) 84px" alt="logo-macile">
+      </a>
+    </nav>
+    <div class="logo__text">
+      <h1 class="logo__text_brand" itemprop="brand">MACILE</h1>
+      <ul class="logo-description" itemprop="slogan">
+        <li class="logo-description__text">Mathematics</li>
+        <li class="logo-description__text">Science</li>
+        <li class="logo-description__text">Engineering</li>
+        <li class="logo-description__text">Language</li>
+      </ul>
     </div>
-  </nav>
-
+    <div class="about">
+      <p>This is about, text about MACILE. MACILE is an education program that seeks learning and undestanding through rigurous learning and learning and fun.</p>
+    </div>
+  </header>
 
 </body>
 
