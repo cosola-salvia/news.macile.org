@@ -4,7 +4,7 @@
 <head itemscope itemtype="http://schema.org/CreativeWork">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>We Are the Heroes - MACILE Newsletter</title>
+	<title>Conquered Steps - MACILE Newsletter</title>
 	<meta name="description" content="“We are the heroes” is the first digital newsletter of MACILE, a non-profit organization based on learning about Math, Science, Engineering and Language." />
 	<link rel="canonical" href="https://newsletter.macile.org">
 	<link rel="alternate" hreflang="es" href="https://newsletter.macile.org/es/" title="Español">
@@ -20,9 +20,9 @@
 	<meta property="og:description" itemprop="description"
 		    content="“We are the heroes” is the first digital newsletter of MACILE, a non-profit organization based on learning about Math, Science, Engineering and Language.">
 	<!-- Twitter schema -->
-  	<meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:domain" content="macile.org">
-  	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/app/assets/styles/styles.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -50,46 +50,34 @@
   <!-- End Matomo Code -->
 </head>
 <body>
-	<nav>
-		<div class="language-menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-			<span class="newsletter-date">July-October, 2019</span>
-      <a class="language-menu--item" href="/" itemprop='url'>
-        <span itemprop="name">English</span>
-      </a>
-      <a class="language-menu--item" href="/es/" itemprop='url'>
-        <span itemprop="name">Español</span>
-      </a>
-		</div>
-    <div class="primary-nav" itemscope itemtype="http://schema.org/Organization">
-      <a class="logo-btn" href="/" itemprop="url">
-        <img
-				  srcset="/app/assets/images/logo-macile-167x180.jpg 167w,
-				          /app/assets/images/logo-macile-116x125.jpg 116w,
-				          /app/assets/images/logo-macile-84x90.jpg 84w"
-				  sizes="(min-width: 800px) 167px, (min-width: 500px) 116px, (min-width: 150px) 84px"
-				  alt="logo-macile">
-			</a>
-      <div class="logo-text">
-        <h1 class="logo-brand" itemprop="brand">MACILE</h1>
-        <ul class="logo-description" itemprop="slogan">
-          <li class="logo-description--text">Mathematics</li>
-          <li class="logo-description--text">Science</li>
-          <li class="logo-description--text">Engineering</li>
-          <li class="logo-description--text">Language</li>
-        </ul>
+  <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+  	<div class="menu">
+      <span class="menu__news-name">MACILE Newsletter</span>
+      <div>
+        <a class="menu__item" href="/" itemprop='url'>
+          <span itemprop="name">EN</span>
+        </a>
+        <a class="menu__item" href="newsletter.macile.org/es" itemprop='url'>
+          <span itemprop="name">ES</span>
+        </a>
       </div>
-		</div>
+  	</div>
+    <a class="logo__btn" href="/" itemprop="url">
+      <img
+        srcset="/app/assets/images/logo-macile-167x180.png 167w,
+                /app/assets/images/logo-macile-116x125.png 116w,
+                /app/assets/images/logo-macile-84x90.png 84w"
+        sizes="(min-width: 800px) 167px, (min-width: 500px) 116px, (min-width: 150px) 84px"
+        alt="logo-macile">
+    </a>
   </nav>
-	<!-- A <section> acts just like a <div> except it tells browsers and search engines that it is a section on our page -->
-	<section class="home-hero">
-		<div class="home-hero--inner">
-			<h1 class="home-hero--title">Our awesome graduation</h1>
-			<h2 class="home-hero--subtitle">Conquered steps are milestones on the journeys we're pursuing</h2>
-			<a href="#" class="home-hero-btn">Forging ahead...! </a>
-		</div>
-	</section>
-
-	<!--Like <section>, <article> acts very similar to a <div>. It is new in HTML5. It specifies independent, self-contained content. Can be used for forum post, blog post, news story, comment.-->
+  <header class="home-hero">
+  	<div class="home-hero__inner">
+  		<h1 class="home-hero__title">Our Awesome Graduation</h1>
+      <h2 class="home-hero__date">July-October, 2019</h2>
+  		<p class="home-hero__text">Conquered Steps are milestones on the journeys we're pursuing. We're forging ahead!</p>
+  	</div>
+  </header>
 	<article class="post post-wrapper" itemscope itemtype="http://schema.org/CreativeWork">
 		<div class="post__our-journey" itemprop="abstract">
 		<h1 class="post__our-journey_title">Conquered Steps</h1>
@@ -288,11 +276,5 @@
 			<p class="page-footer--text"> Copyright 2007-2020 by COSOLA. All rights reserved</p>
 		</div>
 	</footer>
-
-   <!--
-   	Like section and article. It tells browser that it contains the main content of the page.
-	<main class="our-journey main-wrapper">
-	</main>  -->
-
 </body>
 </html>
