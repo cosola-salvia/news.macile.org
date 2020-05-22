@@ -93,11 +93,9 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
-  background-image: linear-gradient(rgba(21, 21, 78, 0.5), rgba(21, 21, 78, 0.6)), url("/images/bulletin/SA2007/group2-sa2007-09.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  color: #fff;
+  background-color: #096a97;
+  border-bottom: 0.2em solid #1a1451;
 }
 
 .home-hero__title {
