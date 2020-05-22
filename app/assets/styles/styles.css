@@ -186,10 +186,9 @@ a {
 }
 
 .donate {
-  height: 300px;
-  font-size: 1.5rem;
-  margin-left: 2em;
-  margin-right: 2em;
+  padding: 1em 3em;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(rgba(21, 21, 78, 0.5), rgba(21, 21, 78, 0.6)), url("/images/newsletter/salvia-team.webp");
   background-size: cover;
   background-position: center center;
@@ -197,13 +196,26 @@ a {
   border: 5px solid #096a97;
   color: #fff;
   text-align: center;
+
 }
 
 .donate__btn {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
   color: white;
   background-color: #6fcf97;
-  padding: 1em 1.5em;
+  padding: 0.5em 1em;
+  display: block;
+  width:3em;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.donate__paragraph {
+  width:25em;
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.donate__h2 {
+  font-size: 1.5rem;
 }
