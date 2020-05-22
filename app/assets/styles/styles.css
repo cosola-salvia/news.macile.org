@@ -172,7 +172,6 @@ a {
 }
 
 .teaser {
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   font-size: 0.70rem;
 }
 
@@ -190,6 +189,7 @@ a {
 
 .teaser-item__main-title {
   text-align: center;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   font-weight: 500;
 }
 
@@ -203,6 +203,7 @@ a {
 
 .teaser-item__name {
   font-size: 0.85rem;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   color: #fff;
   padding: 0.9em;
 }
@@ -268,6 +269,7 @@ a {
 
 .teaser-item__text {
   font-size: 1rem;
+  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
   line-height: 1.5;
   margin-bottom: 2em;
 }
