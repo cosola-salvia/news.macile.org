@@ -238,7 +238,7 @@ a {
 }
 
 @media only screen and (min-width: 700px) {
-  .teaser-item__img_image-first {
+  .teaser-item__img_img-first {
     order: -1;
   }
 }
@@ -279,7 +279,7 @@ a {
   }
 }
 
-.teaser-item__botton {
+.teaser-item__btn {
   font-family: 'Roboto', sans-serif;
   font-size: 0.65rem;
   color: #fff;
@@ -288,16 +288,16 @@ a {
   border-radius: 0.5em;
 }
 
-.teaser-item__botton_pink {
+.teaser-item__btn_pink {
   background-color: #d24b4b;
 }
 
-.teaser-item__botton_blue {
+.teaser-item__btn_blue {
   background-color: #096a97;
 }
 
 @media only screen and (min-width: 900px) {
-  .teaser-item__botton {
+  .teaser-item__btn {
     font-size: 0.8rem;
     padding: 1.2em;
     border-radius: 0.5em;
