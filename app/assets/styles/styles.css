@@ -251,7 +251,7 @@ a {
 }
 
 @media only screen and (min-width: 700px) {
-  .teaser-item__img_img-first {
+  .teaser-item__img_img-first .teaser-item__img {
     order: -1;
   }
 }
