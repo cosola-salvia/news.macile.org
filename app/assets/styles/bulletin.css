@@ -10,6 +10,48 @@ figure {
 	margin: 0;
 }
 
+.home-hero {
+  height: 250px;
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #096a97;
+  border-bottom: 0.2em solid #1a1451;
+}
+
+.home-hero__title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .home-hero {
+    height: 350px;
+  }
+  .home-hero__title {
+    font-size: 2.2rem;
+  }
+  .home-hero__text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .home-hero {
+    height: 450px;
+  }
+  .home-hero__title {
+    font-size: 3rem;
+  }
+  .home-hero__text {
+    font-size: 1.8rem;
+  }
+}
+
 .article {
   padding: 2em;
   max-width: 87vw;
