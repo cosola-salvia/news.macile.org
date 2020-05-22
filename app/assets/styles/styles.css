@@ -207,16 +207,6 @@ a {
   padding: 0.9em;
 }
 
-.teaser-item__name_pink {
-  right: 0;
-  background-color: #d24b4b;
-}
-
-.teaser-item__name_blue {
-  left: 0;
-  background-color: #096a97;
-}
-
 @media only screen and (min-width: 700px) {
   .teaser-item__name {
     position: absolute;
@@ -226,6 +216,16 @@ a {
   .teaser-item__name {
     padding: 1.2em;
   }
+}
+
+.teaser-item__name_pink {
+  right: 0;
+  background-color: #d24b4b;
+}
+
+.teaser-item__name_blue {
+  left: 0;
+  background-color: #096a97;
 }
 
 .teaser-item__content {
