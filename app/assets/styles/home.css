@@ -169,6 +169,39 @@ a {
   margin-left: 4em;
 }
 
+.footer-menu {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer-menu__text {
+  font-family: PT, serif;
+  margin-left: 1em;
+}
+
+.footer-menu__text .footer__text_brand {
+  margin-bottom: 0;
+}
+
+.footer__text_logo {
+  margin-top: 0.5em;
+  padding-left: 0;
+}
+
+.footer-menu__nav {
+  display: flex;
+  align-items: center;
+  color: #a7a9ac;
+  margin-left: 5.2em;
+}
+
+.footer-menu__nav_link {
+  font-weight: bold;
+  color: #a7a9ac;
+  margin: 1em;
+}
+
 .footer-copyrights {
   font-size: 0.9rem;
   font-weight: 300;
