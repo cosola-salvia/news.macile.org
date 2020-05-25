@@ -147,6 +147,28 @@ a {
   padding: 0.5em 0;
 }
 
+.footer-contacts {
+  padding-bottom: 1em;
+  border-bottom: 0.0625em solid #fdfd56;
+}
+
+.footer-contacts__title {
+  color: #fdfd56;
+}
+
+.footer-contacts__email,
+.footer-contacts__number {
+  font-family: PT, serif;
+}
+
+.footer-contacts__email {
+  color: #a7a9ac;
+}
+
+.footer-contacts__number {
+  margin-left: 4em;
+}
+
 .footer-copyrights {
   font-size: 0.9rem;
   font-weight: 300;
