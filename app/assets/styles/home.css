@@ -202,6 +202,11 @@ a {
   margin: 1em;
 }
 
+.footer__text {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
 .footer-copyrights {
   font-size: 0.9rem;
   font-weight: 300;
