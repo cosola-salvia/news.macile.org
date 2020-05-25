@@ -136,3 +136,20 @@ a {
     padding: 1.5em;
   }
 }
+
+.footer {
+  background-color: #122a74;
+  color: #a7a9ac;
+}
+
+.wrapper {
+  margin: 0 4em;
+  padding: 0.5em 0;
+}
+
+.footer-copyrights {
+  font-size: 0.9rem;
+  font-weight: 300;
+  background-color: #15154e;
+  padding: 0.5em 4em;
+}
