@@ -209,7 +209,7 @@ a {
   margin-right: auto;
 }
 
-.donate__paragraph {
+.donate__content {
   width:25em;
   font-size: 1.5rem;
   margin-bottom: 1.5em;
@@ -217,6 +217,6 @@ a {
   margin-right: auto;
 }
 
-.donate__h2 {
+.donate__header {
   font-size: 1.5rem;
 }
