@@ -143,17 +143,37 @@ a {
 }
 
 .wrapper {
-  margin: 0 4em;
+  margin: 0 1.5em;
   padding: 0.5em 0;
 }
 
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    margin: 0 4em;
+  }
+}
+
 .footer-contacts {
+  font-size: 0.75rem;
   padding-bottom: 1em;
   border-bottom: 0.0625em solid #fdfd56;
 }
 
+@media only screen and (min-width: 500px) {
+  .footer-contacts {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .footer-contacts {
+    font-size: 1rem;
+  }
+}
+
 .footer-contacts__title {
   color: #fdfd56;
+  margin-bottom: 0.5em;
 }
 
 .footer-contacts__email,
@@ -170,18 +190,43 @@ a {
 }
 
 .footer-menu {
-  display: flex;
+  text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-.footer-menu__text {
-  font-family: PT, serif;
-  margin-left: 1em;
+@media only screen and (min-width: 900px) {
+  .footer-menu {
+    display: flex;
+    text-align: left;
+  }
 }
 
-.footer-menu__text .footer__text_brand {
-  margin-bottom: 0;
+.footer-menu__text {
+  font-family: PT, serif;
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .footer-menu__text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .footer-menu__text {
+    margin-left: 1em;
+  }
+}
+
+.footer__text_brand {
+  margin: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .footer__text_brand {
+    margin-bottom: 0;
+  }
 }
 
 .footer__text_logo {
@@ -190,26 +235,59 @@ a {
 }
 
 .footer-menu__nav {
-  display: flex;
-  align-items: center;
   color: #a7a9ac;
-  margin-left: 5.2em;
+}
+
+@media only screen and (min-width: 900px) {
+  .footer-menu__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 5.2em;
+  }
 }
 
 .footer-menu__nav_link {
+  font-size: 0.65rem;
   font-weight: bold;
   color: #a7a9ac;
-  margin: 1em;
+  margin: 0.2em;
+}
+
+@media only screen and (min-width: 500px) {
+  .footer-menu__nav_link {
+    font-size: 0.75rem;
+    margin: 0.4em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .footer-menu__nav_link {
+    font-size: 1rem;
+    margin: 1em;
+  }
 }
 
 .footer__text {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 300;
 }
 
+@media only screen and (min-width: 900px) {
+  .footer__text {
+    font-size: 0.9rem;
+  }
+}
+
 .footer-copyrights {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 300;
   background-color: #15154e;
-  padding: 0.5em 4em;
+  padding: 0.5em 1.5em;
+}
+
+@media only screen and (min-width: 900px) {
+  .footer-copyrights {
+    font-size: 0.9rem;
+    padding: 0.5em 4em;
+  }
 }
