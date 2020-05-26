@@ -30,46 +30,40 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
-	<nav>
-		<div class="language-menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-      <a class="language-menu--item" href="/bulletin" itemprop='url'>
-        <span itemprop="name">English</span>
-      </a>
-      <a class="language-menu--item" href="/es/" itemprop='url'>
-        <span itemprop="name">Español</span>
-      </a>
-		</div>
-    <div class="primary-nav" itemscope itemtype="http://schema.org/Organization">
-      <a class="logo-btn" href="/" itemprop="url">
-        <picture>
-            <source srcset="/images/newsletter/logo-macile.webp" type="image/webp">
-            <img class="logo-img" src="/images/newsletter/logo-macile.jpg" itemprop="logo">
-          </picture>
-      </a>
-      <div class="logo-text">
-        <h1 class="logo-brand" itemprop="brand">MACILE</h1>
-        <ul class="logo-description" itemprop="slogan">
-          <li class="logo-description--text">Mathematics</li>
-          <li class="logo-description--text">Science</li>
-          <li class="logo-description--text">Engineering</li>
-          <li class="logo-description--text">Language</li>
-        </ul>
+	<nav class="nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+    <div class="menu">
+      <span class="menu__news-name">MACILE Academy Bulletin</span>
+      <div>
+        <a class="menu__item" href="/" itemprop='url'>
+          <span itemprop="name">EN</span>
+        </a>
+        <a class="menu__item" href="/es/" itemprop='url'>
+          <span itemprop="name">ES</span>
+        </a>
       </div>
-		</div>
-	</nav>
-	<div class="primary-nav--banner" itemscope itemtype="http://schema.org/PublicationVolume">
-		<p class="primary-nav--banner-vol" itemprop="name">MACILE Academies Bulletin</p>
-		<p class="primary-nav--banner-vol" itemprop="description">Summer 2007-2008</p>
-		<p class="primary-nav--banner-vol" itemprop="volumeNumber">Volume No. 1</p>
-	</div>
+    </div>
+    <a class="logo__btn" href="/" itemprop="url">
+      <img
+        srcset="/images/logo-macile-167x180.png 167w,
+                /images/logo-macile-116x125.png 116w,
+                /images/logo-macile-84x90.png 84w"
+        sizes="(min-width: 800px) 167px, (min-width: 500px) 116px, (min-width: 150px) 84px"
+        alt="logo-macile">
+    </a>
+  </nav>
+  <header class="home-hero">
+    <div class="home-hero__inner">
+      <h1 class="home-hero__title">SUMMER ACADEMY: 2007 & 2008</h1>
+      <p class="home-hero__text">Advancing engineering education in less-advantaged communities</p>
+    </div>
+  </header>
 	<article class="article" itemscope itemtype="http://schema.org/CreativeWork">
-		<h1 class="article__title" itemprop="headline">SUMMER ACADEMY: 2007 &#38; 2008</h1>
-		<h2 class="article__subtitle" itemprop="alternativeHeadline">Advancing engineering education in less-advantaged communities</h2>
-		<div class="article-content">
-			<div class="content-section">
-				<img src="/images/bulletin/SA2007/group2-sa2007-09.jpg" itemprop="image">
-				<p class="content-section__hero_large" itemprop="abstract">We are the adventurers; the true founders. High school students from Itabo y San Gregorio de Nigua selected for the <strong>FIRST</strong> MACILE Summer Academy, Jul 2007.</p>
-			</div>
+    <h1 class="article__title" itemprop="headline">We are the adventurers</h1>
+    <div class="article-content">
+      <div class="content-section">
+        <img src="/images/bulletin/SA2007/group2-sa2007-09.jpg" itemprop="image">
+        <p class="content-section__hero_large" itemprop="abstract">We are the adventurers; the true founders. High school students from Itabo y San Gregorio de Nigua selected for the <strong>FIRST</strong> MACILE Summer Academy, Jul 2007.</p>
+      </div>
 			<section class="content-section">
 				<h3 class="content-section__headline" itemprop="headline">MACILE Summer Academy</h3>
 				<p itemprop="about">The MACILE Summer Academy is a rigorous five week program for students in grades 6 to 12. The curriculum includes math, science, engineering, technology, and language.

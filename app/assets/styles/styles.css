@@ -33,10 +33,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  line-height: 1.55;
-}
-
 .logo__btn {
   display: flex;
   justify-content: center;
