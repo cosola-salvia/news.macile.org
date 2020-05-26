@@ -18,6 +18,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+nav {
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  background: #1a1451;
+  padding: 0.5em 1.5em;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -25,12 +31,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-.nav {
-  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-  background: #1a1451;
-  padding: 0.5em 1.5em;
 }
 
 .logo__btn {
@@ -68,7 +68,7 @@ a {
 
 @media only screen and (min-width: 800px) {
   .menu {
-    margin-left: 10em;
+    margin-left: 12em;
   }
 }
 
@@ -86,116 +86,64 @@ a {
   color: #fdfd56;
 }
 
+.home-hero {
+  width: 100vw;
+  height: 40vh;
+  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/app/assets/images/graduation_20191026MA-original.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.home-hero__title {
+  font-size: 2.85rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-hero__date {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
 .home-hero__text {
   font-size: 0.75rem;
   font-style: italic;
 }
 
-/*Newsletter*/
-
-.language-menu {
-  width: 100%;
-  font-size: 1.15rem;
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
-  text-align: right;
-  background: #1a1451;
-  margin-bottom: 0.625em;
-  padding: 0.5em 1em;
-}
-
-.language-menu--item {
-  color: #fff;
-  padding: 0.475em;
-}
-
-.language-menu--item:hover {
-  color: #fdfd56;
-}
-
-.primary-nav {
-  margin: 0.4em auto 0;
-  text-align: center;
-}
-
-.logo-brand {
-	color: #1a1451;
-	font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-	font-size: 2rem;
-  margin: 0;
-}
-
-.logo-description {
-	display: flex;
-  font-family: 'Trajan Pro Regular', 'Times New Roman', serif;
-  color: #606060;
-	justify-content: center;
-	margin-top: 0;
-	padding-left: 0;
-}
-
-.logo-description--text {
-	list-style: none;
-	padding: 0 0.313em;
-	font-size: 0.75rem;
-}
-
-@media only screen and (min-width: 500px) {
-	.primary-nav {
-		width: 500px;
-		display: grid;
-		grid-template-columns: auto auto;
-	}
-
-	.logo-brand {
-		font-size: 4.7rem;
-	}
-
-	.logo-description {
-		margin-top: 0.2em;
-	}
-
-	.logo-description--text {
-		font-size: 1rem;
-	}
-}
-
-@media only screen and (min-width: 800px) {
-	.primary-nav {
-		width: 800px;
-		margin-bottom: 0.4em;
-	}
-
-	.logo-brand {
-		font-size: 8rem;
-	}
-
-	.logo-description {
-		margin-top: -0.4em;
-		margin-bottom: 0;
-	}
-
-	.logo-description--text {
-		padding: 0 1.35em;
-		font-size: 1.3rem;
-	}
-}
-
-.logo-description--text {
-  list-style: none;
-  padding: 0 0.313em;
-  font-size: 0.75rem;
-}
-
-@media only screen and (min-width: 500px) {
-  .primary-nav {
-    width: 500px;
-    display: grid;
-    grid-template-columns: auto auto;
+@media only screen and (min-width: 600px) {
+  .home-hero {
+    height: 70vh;
+  }
+  .home-hero__title {
+    font-size: 4.5rem;
+  }
+  .home-hero__date {
+    font-size: 2rem;
+  }
+  .home-hero__text {
+    font-size: 1rem;
   }
 
-  .logo-img {
-    height: 125px;
-    width: auto;
+@media only screen and (min-width: 900px) {
+  .home-hero {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  .home-hero__title {
+    font-size: 6rem;
+  }
+  .home-hero__date {
+    font-size: 3rem;
+  }
+  .home-hero__text {
+    font-size: 1.75rem;
   }
 
   .logo-brand {
