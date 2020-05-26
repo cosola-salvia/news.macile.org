@@ -136,3 +136,80 @@ a {
     padding: 1.5em;
   }
 }
+
+.footer {
+  background-color: #122a74;
+  color: #a7a9ac;
+}
+
+.wrapper {
+  margin: 0 4em;
+  padding: 0.5em 0;
+}
+
+.footer-contacts {
+  padding-bottom: 1em;
+  border-bottom: 0.0625em solid #fdfd56;
+}
+
+.footer-contacts__title {
+  color: #fdfd56;
+}
+
+.footer-contacts__email,
+.footer-contacts__number {
+  font-family: PT, serif;
+}
+
+.footer-contacts__email {
+  color: #a7a9ac;
+}
+
+.footer-contacts__number {
+  margin-left: 4em;
+}
+
+.footer-menu {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer-menu__text {
+  font-family: PT, serif;
+  margin-left: 1em;
+}
+
+.footer-menu__text .footer__text_brand {
+  margin-bottom: 0;
+}
+
+.footer__text_logo {
+  margin-top: 0.5em;
+  padding-left: 0;
+}
+
+.footer-menu__nav {
+  display: flex;
+  align-items: center;
+  color: #a7a9ac;
+  margin-left: 5.2em;
+}
+
+.footer-menu__nav_link {
+  font-weight: bold;
+  color: #a7a9ac;
+  margin: 1em;
+}
+
+.footer__text {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.footer-copyrights {
+  font-size: 0.9rem;
+  font-weight: 300;
+  background-color: #15154e;
+  padding: 0.5em 4em;
+}
