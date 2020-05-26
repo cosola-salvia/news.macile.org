@@ -24,4 +24,6 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "imagemin-webp": "^5.1.0"
+  },
+  "dependencies": {}
 }
