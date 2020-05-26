@@ -196,7 +196,6 @@ a {
   border: 5px solid #096a97;
   color: #fff;
   text-align: center;
-
 }
 
 .donate__btn {
@@ -209,6 +208,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 .donate__paragraph {
   width:25em;
   font-size: 1.5rem;
@@ -216,6 +216,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 .donate__h2 {
   font-size: 1.5rem;
 }
