@@ -250,11 +250,11 @@ a {
   margin: 2em;
 }
 
-@media only screen and (min-width: 700px) {
+/*@media only screen and (min-width: 700px) {
   .teaser-item__img_img-first .teaser-item__img {
-    order: -1;
+    order: 1;
   }
-}
+}*/
 
 .teaser-item__date {
   font-size: 0.75;
