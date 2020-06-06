@@ -164,7 +164,7 @@ figure {
 
 .content-section:nth-child(19) {
 	grid-column: 2 / -1;
-	background: #603cba;
+	background: #4a3eb3;
 }
 
 @media (max-width: 680px) {
@@ -195,11 +195,11 @@ figure {
 .featured-article__section-heading{
 	font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .featured-article__title {
-	font-size: 1.5rem;
+	font-size: 2rem;
   line-height: 1.2;
   font-weight: 300;
   margin-top: 0;
@@ -255,9 +255,14 @@ a[href$=".pdf"]:hover::after {
 	color: white;
 }
 
+.inner-link--yellow {
+	color: hsla(60, 98%, 66%, 1);
+	background-color: transparent;
+}
+
 .btn-small--yellow {
-	background-color: hsla(60, 79%, 60%, 1);
-	border: 2px solid yellow;
+	background-color: hsla(60, 98%, 66%, 1);
+	border: 2px solid hsl(60, 100%, 50%);
 	padding: 0.5em 0.75em;
   border-radius: 5px;
   display: inline-block;
@@ -268,6 +273,83 @@ a[href$=".pdf"]:hover::after {
 	border-color: hsla(210, 100%, 80%, 1);
 }
 
+.mention {
+	margin-top: 2em;
+}
+
+.mention-container__wrapper {
+	max-width: 78vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mention-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(50px, auto);
+	grid-row-gap: 1em;
+	align-items: center;
+	justify-content: center;
+}
+
+.mention-heading {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	color: #1a1451;
+	grid-gap: 2em;
+}
+
+.mention-heading__title{
+	font-size: 2rem;
+  	font-weight: 300;
+  	margin-bottom: 3rem;
+}
+
+.mention-heading__description {
+	padding: 1em 2em;
+	font-size: .9rem;
+	font-weight: 300;
+	line-height: 1.4;
+	align-self: center;
+	border-left: 1px solid #603cba;
+}
+
+.mention-section__subtitle {
+	color: #57595c;
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.mention-content {
+	background: hsla(246, 49%, 47%, 1);
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.1),
+				0 20px 20px hsla(0, 0%, 0%, 0.05);
+}
+
+.mention-content__item {
+	padding: 1rem 0;
+	line-height: 1.4;
+
+}
+
+.mention-content__item_xp {
+	padding: 1rem 2.25rem;
+	line-height: 1.4;
+}
+
+@media(max-width: 680px) {
+	.mention-heading {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.mention-heading__description {
+	 border-left: none;	
+	 margin-top: -2rem;
+	 padding: 0;
+	}
+}
 .page-footer {
 	width: 100vw;
 	display: flex;
