@@ -1,4 +1,4 @@
-html, 
+html,
 body {
 	color: #808080;
 	padding: 0;
@@ -43,7 +43,7 @@ figure {
 }
 
 .article__subtitle {
-	color: #808080; 
+	color: #808080;
 	font-weight: 300;
 	font-size: 2rem;
 	margin-top: 0;
@@ -60,7 +60,7 @@ figure {
 .content-section {
 	padding: 1em;
 	background: #fff;
-	box-shadow: 
+	box-shadow:
 		0 5px 10px rgba(0, 0, 0, 0.1),
 		0 20px 20px rgba(0, 0, 0, 0.05);
 }
@@ -191,7 +191,7 @@ figure {
 
 .featured-article__image {
 	background-color: white;
-	font-family: 'Baskerville Old Face'; 
+	font-family: 'Baskerville Old Face';
 	font-size: 2.3em;
 	color: #00004d;
   font-weight: bold;
@@ -203,8 +203,8 @@ figure {
 }
 
 /* Including PDF ! */
-a[href$=".pdf"]:after { 
-	content: "Read more"; 
+a[href$=".pdf"]:after {
+	content: "Read more";
 	font-size: 1.1em;
 	color: hsla(240, 100%, 56%, 1);
 }
@@ -236,7 +236,7 @@ a[href$=".pdf"]:hover::after {
 }
 
 .mention-container__wrapper {
-	max-width: 78vw;
+	max-width: 68vw;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -303,7 +303,7 @@ a[href$=".pdf"]:hover::after {
 	  flex-direction: column;
 	}
 	.mention-heading__description {
-	 border-left: none;	
+	 border-left: none;
 	 margin-top: -2rem;
 	 padding: 0;
 	}
