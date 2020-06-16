@@ -12,20 +12,12 @@ figure {
 
 .home-hero {
   height: 250px;
-  font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
   background-color: #096a97;
   border-bottom: 0.2em solid #1a1451;
 }
 
 .home-hero__title {
   font-size: 1.5rem;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -78,7 +70,6 @@ figure {
     font-size: 3rem;
   }
 }
-
 
 .article-content {
 	display: grid;

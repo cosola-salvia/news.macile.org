@@ -87,101 +87,19 @@ a {
 }
 
 .home-hero {
-  width: 100vw;
-  height: 40vh;
   font-family: 'Trajan Pro Bold', 'Times New Roman', serif;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/app/assets/images/graduation_20191026MA-original.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .home-hero__title {
-  font-size: 2.85rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.home-hero__date {
-  font-size: 1.2rem;
-  margin-top: 0;
-}
-
 .home-hero__text {
-  font-size: 0.75rem;
   font-style: italic;
 }
-
-@media only screen and (min-width: 600px) {
-  .home-hero {
-    height: 70vh;
-  }
-  .home-hero__title {
-    font-size: 4.5rem;
-  }
-  .home-hero__date {
-    font-size: 2rem;
-  }
-  .home-hero__text {
-    font-size: 1rem;
-  }
-
-@media only screen and (min-width: 900px) {
-  .home-hero {
-    height: 100vh;
-    background-attachment: fixed;
-  }
-  .home-hero__title {
-    font-size: 6rem;
-  }
-  .home-hero__date {
-    font-size: 3rem;
-  }
-  .home-hero__text {
-    font-size: 1.75rem;
-  }
-
-  .logo-brand {
-    font-size: 4.7rem;
-  }
-
-  .logo-description {
-    margin-top: 0.2em;
-  }
-
-  .logo-description--text {
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .primary-nav {
-    width: 800px;
-    margin-bottom: 0.4em;
-  }
-
-  .logo-img {
-    height: 180px;
-    width: auto;
-  }
-
-  .logo-brand {
-    font-size: 8rem;
-  }
-
-  .logo-description {
-    margin-top: -0.4em;
-    margin-bottom: 0;
-  }
-
-  .logo-description--text {
-    padding: 0 1.35em;
-    font-size: 1.25rem;
-  }
-}
-
